@@ -10,6 +10,7 @@ detailed explanation.
 
 # Available BSIPs
 
-Number             | Title                       | Owner          | Type           | Status
------------------- | --------------------------- | -------------- | -------------- | -------
-[1](bsips-0001.md) | BSIP Purpose and Guidelines | Fabian Schuh   | Informational  | Draft
+Number             | Title                              | Owner          | Type           | Status
+------------------ | ---------------------------        | -------------- | -------------- | -------
+[1](bsips-0001.md) | BSIP Purpose and Guidelines        | Fabian Schuh   | Informational  | Draft
+[2](bsips-0002.md) | Refund Create Order Fees on Cancel | Danial Larimer | Protocol       | Draft

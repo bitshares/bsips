@@ -7,9 +7,12 @@
     Replaces: <BSIP number>
     Superseded-By: <BSIP number>
     Discussion: <url>
+    Worker: <Id of worker proposal>
 
 # Abstract
-# Copyright
 # Motivation
 # Rational
 # Specifications
+# Discussion
+# Copyright
+# See Also
