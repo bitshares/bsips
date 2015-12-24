@@ -1,3 +1,11 @@
+    BSIP: 0001
+    Title: BSIP Purpose and Guidelines
+    Authors: Fabian Schuh <Fabian@BitShares.eu>
+    Status: Draft
+    Type: Informational
+    Created: 2015-12-16
+
+
 Benefit Society on a Blockchain
 -------------------------------
 
@@ -19,8 +27,9 @@ New State
 --------------
 
 *Society*  
-| Field                   	| Description                                                                                                                                                                                                                                                                                                 	|
-|-------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+
+| Field                   	| Description       	 |
+|-------------------------	|----------------------|
 | Creator                 	| Account ID of the creator of this society. This account has permission to modify the properties of this society until the first membership account is funded and Karma has been issued.  After Karma has been issued, the creator permissions are set to the top P membership accounts by total Karma vote. 	|
 | P                       	| The number of members who have joint control over the creator account.                                                                                                                                                                                                                                      	|
 | Name                    	| Used to identify the society. The name can be any UTF8 string up to 60 characters.                                                                                                                                                                                                                          	|
