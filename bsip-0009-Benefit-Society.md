@@ -23,10 +23,8 @@ operate in the traditional manner.
 This feature would not change any existing behavior on the BitShares blockchain and would
 only add new operations.
 
-New State
---------------
 
-*Society*  
+## Society State
 
 | Field                   	| Description       	 |
 |-------------------------	|----------------------|
@@ -45,6 +43,31 @@ New State
 | Charity Percent         	| The percent of donations that may be given to charity requests                                                                                                                                                                                                                                              	|
 | Active Charity Requests 	| The number of active charity requests that are allowed.  The top N charity requests by Karma approval voting may receive donations from member's charity account.                                                                                                                                           	|
 
+## Membership State
+
+| Field                   	| Description       	 |
+|-------------------------	|------------------------|
+| Membership ID             | Unique Identifier for this Membership                    |
+| Account ID                | The BTS account which has control over this Membership   |
+| Society ID                | The society this membership is a part of                 |
+| Total BTS Given           | Tracks the life-time total of how much BTS has flowed through this membership |
+| Membership BTS            | BTS held in reserve that may only be given to other members |
+| Charity BTS               | BTS held in reserve that may be given to charity or other members |
+| Karma                     | Current Karma within this society                       |
+
+
+## Request State
+
+| Field                   	| Description       	 |
+|-------------------------	|------------------------|
+| Membership ID             | The society member making the request                    |
+| Karma Committed           | The total Karma being being used by this request         |
+| Total Karma For           | The total amount of Karma voting to approve this request |
+| Total Karma Against       | The total amount of Karma voting against this request    |
+| Subject                   | An 80 character title for the request                    |
+| Summary                   | A brief summary of the request                           |
+| Details                   | A detailed descirption of the request                    |
+| Total BTS Received        | The total BTS that has been given to this request        |
 
 New Operations
 --------------
