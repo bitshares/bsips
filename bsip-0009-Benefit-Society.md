@@ -27,7 +27,7 @@ only add new operations.
 ## Society State
 
 | Field                   	| Description       	 |
-|-------------------------	|----------------------|
+|-------------------------------------------|----------------------|  
 | Creator                 	| Account ID of the creator of this society. This account has permission to modify the properties of this society until the first membership account is funded and Karma has been issued.  After Karma has been issued, the creator permissions are set to the top P membership accounts by total Karma vote. 	|
 | P                       	| The number of members who have joint control over the creator account.                                                                                                                                                                                                                                      	|
 | Name                    	| Used to identify the society. The name can be any UTF8 string up to 60 characters.                                                                                                                                                                                                                          	|
@@ -68,6 +68,7 @@ only add new operations.
 | Summary                   | A brief summary of the request                           |
 | Details                   | A detailed descirption of the request                    |
 | Total BTS Received        | The total BTS that has been given to this request        |
+
 
 New Operations
 --------------
