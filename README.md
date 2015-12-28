@@ -11,7 +11,7 @@ detailed explanation.
 # Available BSIPs
 
 Number             | Title                              | Owner          | Type           | Status
------------------- | ---------------------------        | -------------- | -------------- | -------
+------------------ | ---------------------------------- | -------------- | -------------- | -------
 [1](bsip-0001.md)  | BSIP Purpose and Guidelines        | Fabian Schuh   | Informational  | Draft
 [2](bsip-0002.md)  | Refund Create Order Fees on Cancel | Daniel Larimer | Protocol       | Draft
 [3](bsip-0003.md)  | Maker / Taker Market Fees Flag     | Daniel Larimer | Protocol       | Deferred
@@ -20,3 +20,4 @@ Number             | Title                              | Owner          | Type 
 [6](bsip-0006.md)  | Market Maker Incentivization       | Daniel Larimer | Protocol       | Draft
 [7](bsip-0007.md)  | Fee Backed Assets (FBA)            | Daniel Larimer | Protocol       | Draft
 [8](bsip-0008.md)  | Privacy (STEALTH) Mode             | Daniel Larimer | Protocol       | Draft
+[9](bsip-0009.md)  | Benefit Society                    | Fabian Schuh   | Protocol       | Draft
