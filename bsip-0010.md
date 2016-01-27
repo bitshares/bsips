@@ -8,7 +8,7 @@
     Worker: t.b.d.
     
 # Summary for Shareholders
-This worker proposal aims to introduce a percentage-based transfer fee solution as an alternative to the current flat rate. The main goal is to make BitShares viable for transferring smaller amounts - the current flat transfer rate restrains this, as for smaller transfers the flat fee makes up a significant part of the amount being sent. As we have it know, most of the blockchain's blocks are empty, which from a business perspective is a clear waste of company's resources.
+This worker proposal aims to introduce a percentage-based transfer fee solution as an alternative to the current flat rate. The main goal is to make BitShares viable for transferring smaller amounts. The current flat transfer rate is not friendly for small transfers, as for these transfers the flat transfer fee makes up a significant part of the amount being sent. As we have it now, most of the blockchain's blocks are empty, which from a business perspective is a clear waste of company's resources.
 
 The aim of this proposal is to make use of the fact that users generally are more willing to pay higher transfer fees when they send bigger amounts (and this is the situation when we can make profit) whereas they will not accept relatively big transfer fees for smaller amounts (and this is the situation when we need to forgo profit). An overall increase in the network's revenue and liquidity is expected, as lower fees should open up BitShares to micro-transactions.  
 
