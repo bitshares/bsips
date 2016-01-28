@@ -21,6 +21,6 @@ Number             | Title                              | Owner          | Type 
 [7](bsip-0007.md)  | Fee Backed Assets (FBA)            | Daniel Larimer | Protocol       | Draft
 [8](bsip-0008.md)  | Privacy (STEALTH) Mode             | Daniel Larimer | Protocol       | Draft
 [9](bsip-0009.md)  | Benefit Society                    | Fabian Schuh   | Protocol       | Draft
-10                 | Percentage-based transfer fee solution based on CER | Jakub Zarembinski | Protocol       | Draft
+[10](bsip-0010.md) | Percentage-based transfer fee solution based on CER | Jakub Zarembinski | Protocol       | Draft
 11                 | On Demand Voting                   | Daniel Larmier | Protocol       | Draft
 12                 | Hardfork Precdure Proposal         | Fabian Schuh   | Informational       | Draft
