@@ -23,4 +23,5 @@ Number             | Title                              | Owner          | Type 
 [9](bsip-0009.md)  | Benefit Society                    | Fabian Schuh   | Protocol       | Draft
 [10](bsip-0010.md) | Percentage-based transfer fee solution based on CER | Jakub Zarembinski | Protocol       | Draft
 11                 | On Demand Voting                   | Daniel Larmier | Protocol       | Draft
-12                 | Hardfork Precdure Proposal         | Fabian Schuh   | Informational       | Draft
+12                 | Hardfork Precdure Proposal         | Fabian Schuh   | Informational  | Draft
+[13](bsip-0013.md) | Disable negative voting on workers | Daniel Larimer | Protocol       | Draft
