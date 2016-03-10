@@ -24,4 +24,6 @@ Number             | Title                              | Owner          | Type 
 [10](bsip-0010.md) | Percentage-based transfer fee solution based on CER | Jakub Zarembinski | Protocol | Accepted
 11                 | On Demand Voting                   | Daniel Larmier | Protocol       | Draft
 12                 | Hardfork Procedure Proposal        | Fabian Schuh   | Informational  | Draft
-[13](bsip-0013.md) | Disable negative voting on workers | Daniel Larimer | Protocol       | Draft
+13                 | Contract for Difference (CFD) trading | Frank Ahrens | Protocol      | Draft
+14                 | Annual Membership price determined by the registrar | Jakub Zarembinski | Deferred
+[15](bsip-0015.md) | Disable negative voting on workers | Daniel Larimer | Protocol       | Draft
