@@ -27,3 +27,4 @@ Number             | Title                              | Owner          | Type 
 13                 | Contract for Difference (CFD) trading | Frank Ahrens | Protocol      | Draft
 14                 | Annual Membership price determined by the registrar | Jakub Zarembinski | Deferred
 [15](bsip-0015.md) | Disable negative voting on workers | Daniel Larimer | Protocol       | Draft
+[16](bsip-0016.md) | Optimization to Force Settlement Parameters of BitCNY | Jerry Liu | Protocol | Draft
