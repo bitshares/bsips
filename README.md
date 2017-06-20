@@ -30,3 +30,4 @@ Number             | Title                                                    | 
 [16](bsip-0016.md) | Optimization to Force Settlement Parameters of BitCNY    | Jerry Liu         | Protocol       | Installed
 [17](bsip-0017.md) | Revive BitAsset after Global Settlement                  | Peter Conrad      | Protocol       | Draft
 [18](bsip-0018.md) | Revive BitAsset through buying Settlement Pool           | Fabian Schuh      | Protocol       | Draft
+[19](bsip-0019.md) | Introducing profit sharing/dividends to Bitshares        | Customminer       | Protocol       | Draft
