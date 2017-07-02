@@ -31,3 +31,4 @@ Number             | Title                                                    | 
 [17](bsip-0017.md) | Revive BitAsset after Global Settlement                  | Peter Conrad      | Protocol       | Draft
 [18](bsip-0018.md) | Revive BitAsset through buying Settlement Pool           | Fabian Schuh      | Protocol       | Draft
 [19](bsip-0019.md) | Introducing profit sharing/dividends to Bitshares (MPA only)        | Customminer       | Protocol       | Draft
+[20](bsip-0020.md) | Introducing profit sharing/dividends to Bitshares (UIA only)        | Customminer       | Protocol       | Draft
