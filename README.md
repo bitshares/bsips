@@ -34,3 +34,5 @@ Number             | Title                                                    | 
 [20](bsip-0020.md) | Introducing profit sharing/dividends to Bitshares (UIA only)        | Customminer       | Protocol       | Draft
 [21](bsip-0021.md) | Introducing the 'Coin-Age' statistic to Bitshares assets        | Customminer       | Protocol       | Draft
 [22](bsip-0022.md) | Introducing expiring votes for Witnesses, Committie members & Proxies within the Bitshares network        | Customminer       | Protocol       | Draft
+[23](bsip-0023.md) | Sharedropping an UIA against an external cryptocurrency distribution snapshot        | Customminer       | Protocol       | Draft
+[24](bsip-0024.md) | Locking Bitshares away as 'Bitshares Influence' for voting privileges on the BTS DEX       | Customminer       | Protocol       | Draft
