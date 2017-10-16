@@ -22,10 +22,6 @@ Number             | Title                                                    | 
 [8](bsip-0008.md)  | Privacy (STEALTH) Mode                                   | Daniel Larimer    | Protocol       | Installed
 [9](bsip-0009.md)  | Benefit Society                                          | Fabian Schuh      | Protocol       | Draft
 [10](bsip-0010.md) | Percentage-based transfer fee solution based on CER      | Jakub Zarembinski | Protocol       | Accepted
-11                 | On Demand Voting                                         | Daniel Larmier    | Protocol       | Draft
-12                 | Hardfork Procedure Proposal                              | Fabian Schuh      | Informational  | Draft
-13                 | Contract for Difference (CFD) trading                    | Frank Ahrens      | Protocol       | Draft
-14                 | Annual Membership price determined by the registrar      | Jakub Zarembinski | Protocol       | Deferred
 [15](bsip-0015.md) | Disable negative voting on workers                       | Daniel Larimer    | Protocol       | Installed
 [16](bsip-0016.md) | Optimization to Force Settlement Parameters of BitCNY    | Jerry Liu         | Protocol       | Installed
 [17](bsip-0017.md) | Revive BitAsset after Global Settlement                  | Peter Conrad      | Protocol       | Draft
