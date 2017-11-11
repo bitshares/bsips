@@ -25,7 +25,7 @@ Number             | Title                                                    | 
 [15](bsip-0015.md) | Disable negative voting on workers                       | Daniel Larimer    | Protocol       | Installed
 [16](bsip-0016.md) | Optimization to Force Settlement Parameters of BitCNY    | Jerry Liu         | Protocol       | Installed
 [17](bsip-0017.md) | Revive BitAsset after Global Settlement                  | Peter Conrad      | Protocol       | Draft
-[18](bsip-0018.md) | Revive BitAsset through buying Settlement Pool           | Fabian Schuh      | Protocol       | Accepted
+[18](bsip-0018.md) | Revive BitAsset through buying Settlement Pool           | Fabian Schuh      | Protocol       | Implemented
 [19](bsip-0019.md) | Introducing profit sharing/dividends to Bitshares (MPA only)        | Customminer       | Protocol       | Rejected
 [20](bsip-0020.md) | Introducing profit sharing/dividends to Bitshares (UIA only)        | Customminer       | Protocol       | Rejected
 [21](bsip-0021.md) | Introducing the 'Coin-Age' statistic to Bitshares assets | Customminer       | Protocol       | Draft
@@ -33,3 +33,5 @@ Number             | Title                                                    | 
 [23](bsip-0023.md) | Sharedropping an UIA against an external cryptocurrency distribution snapshot        | Customminer       | Protocol       | Draft
 [24](bsip-0024.md) | Locking Bitshares away as 'Bitshares Influence' for voting privileges on the BTS DEX       | Customminer       | Protocol       | Draft
 [25](bsip-0025.md) | Transaction Flat-Rates with Weighted Rate-Limitation     | Fabian Schuh | Protocol | Draft
+[26](bsip-0026.md) | Refund Order Creation Fee in Originally Paid Asset on Cancel | Abit More | Protocol | Draft
+[27](bsip-0027.md) | Asset Issuer Reclaim Fee Pool Funds                          | Abit More | Protocol | Draft
