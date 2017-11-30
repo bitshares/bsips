@@ -26,8 +26,8 @@ Number             | Title                                                    | 
 [16](bsip-0016.md) | Optimization to Force Settlement Parameters of BitCNY    | Jerry Liu         | Protocol       | Installed
 [17](bsip-0017.md) | Revive BitAsset after Global Settlement                  | Peter Conrad      | Protocol       | Draft
 [18](bsip-0018.md) | Revive BitAsset through buying Settlement Pool           | Fabian Schuh      | Protocol       | Implemented
-[19](bsip-0019.md) | Introducing profit sharing/dividends to Bitshares (MPA only)        | Customminer       | Protocol       | Rejected
-[20](bsip-0020.md) | Introducing profit sharing/dividends to Bitshares (UIA only)        | Customminer       | Protocol       | Rejected
+[19](bsip-0019.md) | Introducing profit sharing/dividends to Bitshares (MPA only)        | Customminer       | Protocol       | Deferred
+[20](bsip-0020.md) | Introducing profit sharing/dividends to Bitshares (UIA only)        | Customminer       | Protocol       | Deferred
 [21](bsip-0021.md) | Introducing the 'Coin-Age' statistic to Bitshares assets | Customminer       | Protocol       | Draft
 [22](bsip-0022.md) | Introducing expiring votes for Witnesses, Committie members & Proxies within the Bitshares network        | Customminer       | Protocol       | Draft
 [23](bsip-0023.md) | Sharedropping an UIA against an external cryptocurrency distribution snapshot        | Customminer       | Protocol       | Draft
