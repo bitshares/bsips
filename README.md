@@ -25,7 +25,7 @@ Number             | Title                                                    | 
 [15](bsip-0015.md) | Disable negative voting on workers                       | Daniel Larimer    | Protocol       | Installed
 [16](bsip-0016.md) | Optimization to Force Settlement Parameters of BitCNY    | Jerry Liu         | Protocol       | Installed
 [17](bsip-0017.md) | Revive BitAsset after Global Settlement                  | Peter Conrad      | Protocol       | Draft
-[18](bsip-0018.md) | Revive BitAsset through buying Settlement Pool           | Fabian Schuh      | Protocol       | Implemented
+[18](bsip-0018.md) | Revive BitAsset through buying Settlement Pool           | Fabian Schuh      | Protocol       | Installed
 [19](bsip-0019.md) | Introducing profit sharing/dividends to Bitshares (MPA only)        | Customminer       | Protocol       | Deferred
 [20](bsip-0020.md) | Introducing profit sharing/dividends to Bitshares (UIA only)        | Customminer       | Protocol       | Deferred
 [21](bsip-0021.md) | Introducing the 'Coin-Age' statistic to Bitshares assets | Customminer       | Protocol       | Draft
