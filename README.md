@@ -36,3 +36,4 @@ Number             | Title                                                    | 
 [26](bsip-0026.md) | Refund Order Creation Fee in Originally Paid Asset on Cancel | Abit More | Protocol | Accepted
 [27](bsip-0027.md) | Asset Issuer Reclaim Fee Pool Funds                          | Abit More | Protocol | Accepted
 [28](bsip-0028.md) | Worker Proposal Improvements                                 | Bill Butler | Protocol | Draft
+[28](bsip-0029.md) | Asset issue change to require owner authority                | Fabian Schuh | Protocol | Draft
