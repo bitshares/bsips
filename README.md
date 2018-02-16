@@ -37,3 +37,4 @@ Number             | Title                                                    | 
 [27](bsip-0027.md) | Asset Issuer Reclaim Fee Pool Funds                          | Abit More | Protocol | Accepted
 [28](bsip-0028.md) | Worker Proposal Improvements                                 | Bill Butler | Protocol | Draft
 [29](bsip-0029.md) | Asset issue change to require owner authority                | Fabian Schuh | Protocol | Draft
+[30](bsip-0030.md) | Always Allow Increasing Collateral Ratio If Debt Not Increased | Abit More | Protocol | Draft
