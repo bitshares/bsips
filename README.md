@@ -39,3 +39,4 @@ Number             | Title                                                    | 
 [29](bsip-0029.md) | Asset issue change to require owner authority                | Fabian Schuh | Protocol | Draft
 [30](bsip-0030.md) | Always Allow Increasing Collateral Ratio If Debt Not Increased | Abit More | Protocol | Draft
 [31](bsip-0031.md) | Update Short Position's Margin Call Price After Partially Called Or Settled | Abit More | Protocol | Draft
+[32](bsip-0032.md) | Always Match Orders At Maker Price                                          | Abit More | Protocol | Draft
