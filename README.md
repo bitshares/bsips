@@ -40,3 +40,5 @@ Number             | Title                                                    | 
 [30](bsip-0030.md) | Always Allow Increasing Collateral Ratio If Debt Not Increased | Abit More | Protocol | Draft
 [31](bsip-0031.md) | Update Short Position's Margin Call Price After Partially Called Or Settled | Abit More | Protocol | Draft
 [32](bsip-0032.md) | Always Match Orders At Maker Price                                          | Abit More | Protocol | Draft
+[33](bsip-0033.md) | Maker Orders With Better Prices Take Precedence                             | Abit More | Protocol | Draft
+[34](bsip-0034.md) | Always Trigger Margin Call When Call Price Above Or At Price Feed           | Abit More | Protocol | Draft
