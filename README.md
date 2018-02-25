@@ -42,4 +42,4 @@ Number             | Title                                                    | 
 [32](bsip-0032.md) | Always Match Orders At Maker Price                                          | Abit More | Protocol | Draft
 [33](bsip-0033.md) | Maker Orders With Better Prices Take Precedence                             | Abit More | Protocol | Draft
 [34](bsip-0034.md) | Always Trigger Margin Call When Call Price Above Or At Price Feed           | Abit More | Protocol | Draft
-[35](bsip-0035.md) | A Solution To Something-For-Nothing Issue                                   | Abit More | Protocol | Draft
+[35](bsip-0035.md) | Mitigate Rounding Issue On Order Matching                                   | Abit More | Protocol | Draft
