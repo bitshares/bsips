@@ -42,7 +42,6 @@ Number             | Title                                                    | 
 [32](bsip-0032.md) | Always Match Orders At Maker Price                                          | Abit More | Protocol | Draft
 [33](bsip-0033.md) | Maker Orders With Better Prices Take Precedence                             | Abit More | Protocol | Draft
 [34](bsip-0034.md) | Always Trigger Margin Call When Call Price Above Or At Price Feed           | Abit More | Protocol | Draft
+[35](bsip-0035.md) | Mitigate Rounding Issue On Order Matching                                   | Abit More | Protocol | Draft
 [36](bsip-0036.md) | Remove expired price feeds on maintenance interval                          | oxarbitrage | Protocol | Draft
 [37](bsip-0037.md) | Allow new asset name to end with a number                                   | oxarbitrage | Protocol | Draft
-
-
