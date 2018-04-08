@@ -45,5 +45,5 @@ Number             | Title                                                    | 
 [35](bsip-0035.md) | Mitigate Rounding Issue On Order Matching                                   | Abit More | Protocol | Accepted
 [36](bsip-0036.md) | Remove expired price feeds on maintenance interval                          | oxarbitrage | Protocol | Accepted
 [37](bsip-0037.md) | Allow new asset name to end with a number                                   | oxarbitrage | Protocol | Accepted
-[38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Draft
+[38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Accepted
 [39](bsip-0039.md) | Automatically approve proposals by the proposer                             | Fabian Schuh | Protocol | Draft
