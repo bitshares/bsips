@@ -41,9 +41,9 @@ Existing auctioning platforms are based on centralized systems supported by prop
 5. Lack of complementary service offerings
 6. No financing and delivery solutions, no provision of expertise on auction
 
-The solution is the creation of a new, open and decentralized blockchain dedicated to real-time management of auctions anywhere in the world, online or in a salesroom. Through the DomRaider blockchain anyone can buy, sell or promote their services.
+The solution is the creation of a new, open and decentralized blockchain dedicated to real-time management of auctions anywhere in the world, online or in a salesroom. Through the BitShares blockchain anyone can buy, sell or promote their services.
 
-The DomRaider network is not only aimed to register auctions and bids. It is the core of a complete new auctioning ecosystem aimed to provide an innovative solution for all worldwide auctioning players.
+The BitShares network is not only aimed to register auctions and bids. It is the core of a complete new auctioning ecosystem aimed to provide an innovative solution for all worldwide auctioning players.
 
 Live auctioneers, escrow, appraisal experts, delivery services and online auctions providers will all be able to join the network, provide their services and add value to the blockchain.
 
