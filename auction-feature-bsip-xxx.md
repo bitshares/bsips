@@ -56,6 +56,8 @@ Live auctioneers, escrow, appraisal experts, delivery services and online auctio
 
 # Specifications
 
+<https://pdfs.semanticscholar.org/10f8/dab602043ec1fcb3eeea21256bb9011e9dc6.pdf> This paper proposes a flexible architecture for the creation of Internet auctions (IBM Research about decentralized peer-to-peer Auctions).
+
 This proposal is about new Auction feature which can extend BitShares financial platform in order to make BitShares more
 popular and more flexible to cover the best financial possibilities.
 
