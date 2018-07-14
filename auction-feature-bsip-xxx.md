@@ -49,8 +49,10 @@ Live auctioneers, escrow, appraisal experts, delivery services and online auctio
 
 ## Blockchain key features to host decentralized auctions
 
-![Key features]
-(https://cdn-images-1.medium.com/max/800/1*UzKw5Q9qf_0TT2AhV9fxsg.png)
+1. Scalable, reliable and transparent
+2. Interoperable
+3. At a very low transaction cost
+4. Fast and automatic
 
 # Specifications
 
