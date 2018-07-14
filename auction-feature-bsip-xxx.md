@@ -26,6 +26,32 @@ paintings, rare collectibles and expensive wines, auctions are also used for com
 livestock, radio spectrum and used cars. In economic theory, an auction may refer to any 
 mechanism or set of trading rules for exchange.
 
+# Motivations
+
+## The Limitations of Current Auction Systems
+
+Next info catched from <https://medium.com/auctionity/why-decentralize-auctions-67370aeccd1c>
+
+Existing auctioning platforms are based on centralized systems supported by proprietary,closed source software architectures and share these limitations:
+
+1. Lack of transparency
+2. Participants have no assurance that bidders are real and the authenticity of bids is not guaranteed.
+3. Closed systems
+4. No universal web interface or mobile app, each organizer manages their own access
+5. Lack of complementary service offerings
+6. No financing and delivery solutions, no provision of expertise on auction
+
+The solution is the creation of a new, open and decentralized blockchain dedicated to real-time management of auctions anywhere in the world, online or in a salesroom. Through the DomRaider blockchain anyone can buy, sell or promote their services.
+
+The DomRaider network is not only aimed to register auctions and bids. It is the core of a complete new auctioning ecosystem aimed to provide an innovative solution for all worldwide auctioning players.
+
+Live auctioneers, escrow, appraisal experts, delivery services and online auctions providers will all be able to join the network, provide their services and add value to the blockchain.
+
+## Blockchain key features to host decentralized auctions
+
+![Key features]
+(https://cdn-images-1.medium.com/max/800/1*UzKw5Q9qf_0TT2AhV9fxsg.png)
+
 # Specifications
 
 This proposal is about new Auction feature which can extend BitShares financial platform in order to make BitShares more
