@@ -49,3 +49,4 @@ Number             | Title                                                    | 
 [39](bsip-0039.md) | Automatically approve proposals by the proposer                             | Fabian Schuh | Protocol | Draft
 [40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Draft
 [41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Protocol | Draft
+[42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
