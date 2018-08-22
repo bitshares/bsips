@@ -7,7 +7,7 @@
     Discussion: https://github.com/bitshares/bitshares-core/issues/1208
 
 # Abstract
-Recurring withdrawals can currently be defined in BitShares core with respect to any periodic interval greater than the minimum block interval (currently 3 seconds). However those intervals are not intuitive for many use cases such as intervals defined in terms of Gregorian calendar months. This BitShares Improvement Proposal describes describes possible defintions for the periodic intervals and possible implementations such that they are compatible with the existing recurring withdrawal capability. The adoption of of this proposal might increase the goods and services that are accessible through BitShares by making it easier for merchants to accept payment on an intuitive montly basis.
+Recurring withdrawals can currently be defined in BitShares core with respect to any periodic interval greater than the minimum block interval (currently 3 seconds). However those intervals are not intuitive for many use cases such as intervals defined in terms of Gregorian calendar months. This BitShares Improvement Proposal describes possible defintions for the periodic intervals and possible implementations such that they are compatible with the existing recurring withdrawal capability. The adoption of of this proposal will likely increase the goods and services that are accessible through BitShares by making it easier for merchants to accept payment on an intuitive montly basis.
 
 # Motivation
 Recurring withdrawals can currently be defined with respect to any periodic interval greater than the minimum block interval (currently 3 seconds). However those intervals are not intuitive for many use cases such as a desire for a monthly interval. An approximation to a monthly interval might be 30 days; with that approximation and with a starting date-time of January 1 (in the Gregorian Calendar), the next period will begin on January 31, and the subsequent period will begin on March 1 or March 2 depending on whether it is a leap year.
@@ -47,11 +47,11 @@ As in the existing definition, it is possible for the last period to be a fracti
 
 ## Definition B: Elements of the Additional Recurring Definition
 
-The proposed recurring withdrawal periods are defined by three elements:
+The proposed recurring withdrawal periods are defined by five elements:
 
 - a starting date-time in UTC,
 - a starting day of month defined as a number between 1-28,
-- a starting hour of the day in UTC defined by a number between 1 and 23 (inclusive),
+- a starting hour of the day in UTC defined by a number between 0 and 23 (inclusive),
 - a periodic interval defined in terms of calendar units, and
 - an expiration date-time in UTC.
 
@@ -129,7 +129,7 @@ A new index will be required to track the new object. The new index:
 - will need to be referenced in [database_api_impl::get_full_accounts](https://github.com/bitshares/bitshares-core/blob/58969c2a0307e32bbdee731d1f3f9a193b0d1b3f/libraries/app/database_api.cpp#L722-L727)
 - will need to be referenced from [database_api_impl::get_withdraw_permissions_by_giver](https://github.com/bitshares/bitshares-core/blob/58969c2a0307e32bbdee731d1f3f9a193b0d1b3f/libraries/app/database_api.cpp#L2116)
 - will need to be referenced from [database_api_impl::get_withdraw_permissions_by_recipient](https://github.com/bitshares/bitshares-core/blob/58969c2a0307e32bbdee731d1f3f9a193b0d1b3f/libraries/app/database_api.cpp#L2137)
-- will need to be referenced from [database::update_withdraw_permissions()]((https://github.com/bitshares/bitshares-core/blob/58969c2a0307e32bbdee731d1f3f9a193b0d1b3f/libraries/chain/db_update.cpp#L516))
+- will need to be referenced from [database::update_withdraw_permissions()](https://github.com/bitshares/bitshares-core/blob/58969c2a0307e32bbdee731d1f3f9a193b0d1b3f/libraries/chain/db_update.cpp#L516)
 
 
 # Discussion
@@ -141,7 +141,7 @@ An implementation question is whether this secular period definitions should enh
 
 # Summary for Stakeholders
 
-The ability to define recurring withdrawals in commonly recognized intervals, such as "monthly", might increase the goods and services that are accessible through BitShares by making it easier for merchants to accept payment on an intuitive montly basis. The adoption of such a feature might also increase the usage of various BitAssets including bitCNY and bitUSD.
+The ability to define recurring withdrawals in commonly recognized intervals, such as "monthly", will likely increase the goods and services that are accessible through BitShares by making it easier for merchants to accept payment on an intuitive montly basis. The adoption of such a feature will likely also increase the usage of various BitAssets including bitCNY and bitUSD.
 
 # Copyright
 
