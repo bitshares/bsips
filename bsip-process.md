@@ -1,4 +1,4 @@
-The Core Team Worker Proposal provides compensation to entities for specification and/or development of novel solutions which benefit the BitShares platform thru the BitShares Improvements Process defined below. 
+The Core Team Worker Proposal provides compensation to entities for specification and/or development of novel solutions which benefit the BitShares platform through the BitShares Improvements Process defined below. 
 
 ## BitShares Improvements Process using BitShares Improvement Proposals (BSIP)
 
