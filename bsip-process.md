@@ -1,4 +1,4 @@
-The Core Team Worker Proposal provides compensation to entities for specification and/or development of novel solutions which benefit the BitShares platform thru the BitShares Improvements Process defined below. 
+The Core Team Worker Proposal provides compensation to entities for specification and/or development of novel solutions which benefit the BitShares platform through the BitShares Improvements Process defined below. 
 
 ## BitShares Improvements Process using BitShares Improvement Proposals (BSIP)
 1.	Draft BSIP Specification
@@ -8,7 +8,7 @@ The Core Team Worker Proposal provides compensation to entities for specificatio
 
 ## Draft BSIP Specification
 
-Any entity intending to improve the BitShares protocol or provide informational guidance to the community is encouraged to follow the contribution guide within the [BSIP1 Purpose and Guidelines]( https://github.com/bitshares/bsips/blob/master/bsip-0001.md) document. The process is transparent and open, allowing anyone to participate within our [BSIPS repository](https://github.com/bitshares/bsips/). Time spent drafting, reviewing and contributing to the discussion is eligible for compensation thru the BitShares Core Team Worker Proposal. Contributors will log their time within the Issue and the Coordinator will facilitate compensation.
+Any entity intending to improve the BitShares protocol or provide informational guidance to the community is encouraged to follow the contribution guide within the [BSIP1 Purpose and Guidelines]( https://github.com/bitshares/bsips/blob/master/bsip-0001.md) document. The process is transparent and open, allowing anyone to participate within our [BSIPS repository](https://github.com/bitshares/bsips/). Time spent drafting, reviewing and contributing to the discussion is eligible for compensation through the BitShares Core Team Worker Proposal. Contributors will log their time within the Issue and the Coordinator will facilitate compensation.
 
 ## Publish BSIP
 
@@ -20,4 +20,4 @@ Evaluation of a BSIP for `accepted` or `rejected` status is determined by the ou
 
 ## Fund Development 
 
-Any protocol BSIP with the `accepted` status may proceed with development of the specification. Funding may be approved by BTS token holders by a distinct Worker Proposal or thru the Core Team Worker Proposal (at the discretion and availability of the Core Team). Coordination with the Core Team is required prior to any entity proceeding with development to ensure proper release and resource planning. The Core Team is responsible to provide final quality assurance testing prior to publishing a release. All code must be developed within the [BitShares Core repository](https://github.com/bitshares/bitshares-core) under MIT license.
+Any protocol BSIP with the `accepted` status may proceed with development of the specification. Funding may be approved by BTS token holders by a distinct Worker Proposal or through the Core Team Worker Proposal (at the discretion and availability of the Core Team). Coordination with the Core Team is required prior to any entity proceeding with development to ensure proper release and resource planning. The Core Team is responsible to provide final quality assurance testing prior to publishing a release. All code must be developed under MIT license and submitted to the [BitShares Core repository](https://github.com/bitshares/bitshares-core).
