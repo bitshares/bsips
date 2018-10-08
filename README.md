@@ -33,17 +33,19 @@ Number             | Title                                                    | 
 [23](bsip-0023.md) | Sharedropping an UIA against an external cryptocurrency distribution snapshot        | Customminer       | Protocol       | Draft
 [24](bsip-0024.md) | Locking Bitshares away as 'Bitshares Influence' for voting privileges on the BTS DEX       | Customminer       | Protocol       | Draft
 [25](bsip-0025.md) | Transaction Flat-Rates with Weighted Rate-Limitation     | Fabian Schuh | Protocol | Draft
-[26](bsip-0026.md) | Refund Order Creation Fee in Originally Paid Asset on Cancel | Abit More | Protocol | Accepted
-[27](bsip-0027.md) | Asset Issuer Reclaim Fee Pool Funds                          | Abit More | Protocol | Accepted
+[26](bsip-0026.md) | Refund Order Creation Fee in Originally Paid Asset on Cancel | Abit More | Protocol | Installed
+[27](bsip-0027.md) | Asset Issuer Reclaim Fee Pool Funds                          | Abit More | Protocol | Installed
 [28](bsip-0028.md) | Worker Proposal Improvements                                 | Bill Butler | Protocol | Draft
-[29](bsip-0029.md) | Asset issue change to require owner authority                | Fabian Schuh | Protocol | Accepted
-[30](bsip-0030.md) | Always Allow Increasing Collateral Ratio If Debt Not Increased | Abit More | Protocol | Accepted
-[31](bsip-0031.md) | Update Short Position's Margin Call Price After Partially Called Or Settled | Abit More | Protocol | Accepted
-[32](bsip-0032.md) | Always Match Orders At Maker Price                                          | Abit More | Protocol | Accepted
-[33](bsip-0033.md) | Maker Orders With Better Prices Take Precedence                             | Abit More | Protocol | Accepted
-[34](bsip-0034.md) | Always Trigger Margin Call When Call Price Above Or At Price Feed           | Abit More | Protocol | Accepted
-[35](bsip-0035.md) | Mitigate Rounding Issue On Order Matching                                   | Abit More | Protocol | Accepted
-[36](bsip-0036.md) | Remove expired price feeds on maintenance interval                          | oxarbitrage | Protocol | Accepted
-[37](bsip-0037.md) | Allow new asset name to end with a number                                   | oxarbitrage | Protocol | Accepted
-[38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Draft
+[29](bsip-0029.md) | Asset issue change to require owner authority                | Fabian Schuh | Protocol | Installed
+[30](bsip-0030.md) | Always Allow Increasing Collateral Ratio If Debt Not Increased | Abit More | Protocol | Installed
+[31](bsip-0031.md) | Update Short Position's Margin Call Price After Partially Called Or Settled | Abit More | Protocol | Installed
+[32](bsip-0032.md) | Always Match Orders At Maker Price                                          | Abit More | Protocol | Installed
+[33](bsip-0033.md) | Maker Orders With Better Prices Take Precedence                             | Abit More | Protocol | Installed
+[34](bsip-0034.md) | Always Trigger Margin Call When Call Price Above Or At Price Feed           | Abit More | Protocol | Installed
+[35](bsip-0035.md) | Mitigate Rounding Issue On Order Matching                                   | Abit More | Protocol | Installed
+[36](bsip-0036.md) | Remove expired price feeds on maintenance interval                          | oxarbitrage | Protocol | Installed
+[37](bsip-0037.md) | Allow new asset name to end with a number                                   | oxarbitrage | Protocol | Installed
+[38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Installed
 [39](bsip-0039.md) | Automatically approve proposals by the proposer                             | Fabian Schuh | Protocol | Draft
+[40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Draft
+[42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
