@@ -50,3 +50,4 @@ Number             | Title                                                    | 
 [40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Draft
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
 [43](bsip-0043.md) | Market fee sharing                                                          | OpenLedgerApp | Protocol | Draft
+[45](bsip-0045.md) | Introduce 'allow use as bitasset backing collateral' flag/permission to assets | Customminer | Protocol | Draft
