@@ -51,4 +51,9 @@ Number             | Title                                                    | 
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
 [44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Draft
 [45](bsip-0045.md) | Introduce 'allow use as bitasset backing collateral' flag/permission to assets | Customminer | Protocol | Draft
+50                 | Stealth development, Phase II                                               | Christopher Sanborn | Informational | Draft
+51                 | New operations for Confidential Asset (CA) transactions                     | Christopher Sanborn | Protocol | Draft
+52                 | Ring signatures for untraceability of Stealth transactions                  | Christopher Sanborn | Protocol | Draft
 [53](bsip-0053.md) | Blockchain scanning for inbound Stealth transactions                        | Christopher Sanborn | Protocol | Draft
+54                 | Deterministic addresses for Stealth wallets                                 | Christopher Sanborn | Informational | Draft
+55                 | Metadata hiding via Garlic Routing and other means                          | Christopher Sanborn | Informational | Draft
