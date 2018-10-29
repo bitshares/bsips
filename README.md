@@ -47,7 +47,7 @@ Number             | Title                                                    | 
 [37](bsip-0037.md) | Allow new asset name to end with a number                                   | oxarbitrage | Protocol | Installed
 [38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Installed
 [39](bsip-0039.md) | Automatically approve proposals by the proposer                             | Fabian Schuh | Protocol | Draft
-[40](bsip-0040.md) | Custom Active Permission                                                    | Stefan Schießl | Protocol | Accepted
+[40](bsip-0040.md) | Custom Active Permission                                                    | Stefan Schießl | Protocol | Milestone 1 Accepted
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
 [43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted
 [44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted
