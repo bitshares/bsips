@@ -54,7 +54,7 @@ Number             | Title                                                    | 
 [45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Draft
 [47](https://github.com/bitshares/bsips/pull/114) | An Explicit Voting Operation                 | Fabian Schuh | Protocol | Draft
-[48](https://github.com/bitshares/bsips/pull/115) | Add Flad to Asset to Prevent Manipulating Max Supply | Fabian Schuh | Protocol | Draft
+[48](https://github.com/bitshares/bsips/pull/115) | Add Flag to Asset to Prevent Manipulating Max Supply | Fabian Schuh | Protocol | Draft
 [50](https://github.com/bitshares/bsips/pull/) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
 [51](https://github.com/bitshares/bsips/pull/) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
 [52](https://github.com/bitshares/bsips/pull/) | Ring signatures for untraceability of Stealth transactions | Chris Sanborn | Protocol      | Draft
