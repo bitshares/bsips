@@ -47,13 +47,17 @@ Number             | Title                                                    | 
 [37](bsip-0037.md) | Allow new asset name to end with a number                                   | oxarbitrage | Protocol | Installed
 [38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Installed
 [39](bsip-0039.md) | Automatically approve proposals by the proposer                             | Fabian Schuh | Protocol | Draft
-[40](bsip-0040.md) | Custom active permission                                                    | Stefan Schießl | Protocol | Draft
+[40](bsip-0040.md) | Custom Active Permission                                                    | Stefan Schießl | Protocol | Milestone 1 Accepted
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
-[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Draft
-[45](bsip-0045.md) | Introduce 'allow use as bitasset backing collateral' flag/permission to assets | Customminer | Protocol | Draft
-50                 | Stealth development, Phase II                                               | Christopher Sanborn | Informational | Draft
-51                 | New operations for Confidential Asset (CA) transactions                     | Christopher Sanborn | Protocol | Draft
-52                 | Ring signatures for untraceability of Stealth transactions                  | Christopher Sanborn | Protocol | Draft
-[53](bsip-0053.md) | Blockchain scanning for inbound Stealth transactions                        | Christopher Sanborn | Protocol | Draft
-54                 | Deterministic addresses for Stealth wallets                                 | Christopher Sanborn | Informational | Draft
-55                 | Metadata hiding via Garlic Routing and other means                          | Christopher Sanborn | Informational | Draft
+[43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted
+[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted
+[45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
+[46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Draft
+[47](https://github.com/bitshares/bsips/pull/114) | An Explicit Voting Operation                 | Fabian Schuh | Protocol | Draft
+[48](https://github.com/bitshares/bsips/pull/115) | Add Flag to Asset to Prevent Manipulating Max Supply | Fabian Schuh | Protocol | Draft
+[50](https://github.com/bitshares/bsips/issues/88) | Stealth development, Phase II                              | Christopher Sanborn | Informational | Draft
+[51](https://github.com/bitshares/bsips/issues/89) | New operations for Confidential Asset (CA) transactions    | Christopher Sanborn | Protocol      | Draft
+[52](https://github.com/bitshares/bsips/issues/90) | Ring signatures for untraceability of Stealth transactions | Christopher Sanborn | Protocol      | Draft
+[53](https://github.com/bitshares/bsips/pull/116) | Blockchain scanning for inbound Stealth transactions    | Christopher Sanborn | Protocol      | Draft
+[54](https://github.com/bitshares/bsips/issues/92) | Deterministic addresses for Stealth wallets                | Christopher Sanborn | Informational | Draft
+[55](https://github.com/bitshares/bsips/issues/93) | Metadata hiding via Garlic Routing and other means         | Christopher Sanborn | Informational | Draft
