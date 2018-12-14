@@ -27,21 +27,20 @@ However, to make such an expensive operation more lucrative for BtiShares - the 
  
 # Specifications
 ## General workflow
-First of all, there is a need to calculate transaction fee, so Calculate operation should be called on a local node to do calculations.  THe results will be provided (displayed) to a user. 
+First of all, there is a need to calculate transaction fee, so dry_run_sharedrop operation should be called on a local node to do calculations.  THe results will be provided (displayed) to a user. 
 
 Then, knowing that user has enough BTS for transaction fees and vesting money, he should call Sharedrop operation itself. Vesting specifics will be covered below. 
 
 Sharedrop operation will drop the Sharedrop asset in proportion to the stake that stakeholders have to their respective vesting balances.
 
-## Calculate operation 
-
+## dry_run_sharedrop operation 
 This is a locally done operation with the following parameters: 
 
 - Sharedrop asset
 - Sharedrop amount
 - Stake asset
 - Minimum stake asset amount to participate in airdrop (minimum_amount_for_drop)
-Calculate operation returns transaction fee for the sharedrop operation as well as if a user has enough money in his sharedrop vesting or if he should prepare additonal funds.
+**dry_run_sharedrop** operation returns transaction fee for the sharedrop operation as well as if a user has enough money in his sharedrop vesting or if he should prepare additonal funds.
 
 This will be approximate calculation as the final calculation will be determined only during the sharedrop operation.
 
@@ -50,14 +49,14 @@ The following parameters are calculated by a node and presented to the user:
 - Sharedrop operation price
 - Sharedrop vesting stake 
 - Sharedrop vesting period
-## Sharedrop operation
 
+## Sharedrop operation
 Sharedrop operation should be available with the following parameters:
 
 - Sharedrop asset
 - Sharedrop amount
 - Stake asset
-Minimum stake asset amount to participate in airdrop (minimum_amount_for_drop)
+Minimum stake asset amount to participate in airdrop (**minimum_amount_for_drop**)
 Sharedrop operation will drop the Sharedrop asset in proportion to the stake that stakeholders have to their respective vesting balances.
 
 Each stakeholder will then need to retrieve the sharedrop token from the vesting balance in a separate operation.
@@ -71,11 +70,9 @@ If an asset holder has too little amount of the stake token it becomes expensive
 So a sharedrop operation should have **minimum_amount_for_drop** property. 
 
 ### Sharedrop price
-
-sharedrop price should be determined based on the number of accounts (stakeholders) to split the value for, as in stakeholder number * sharedrop_price_multiplier.  sharedrop_price_multiplier is defined by the committee.
+sharedrop price should be determined based on the number of accounts (stakeholders) to split the value for, as in `stakeholder_number * sharedrop_price_multiplier.  sharedrop_price_multiplier is defined by the committee.
 
 ## Sharedrop vesting stake 
-
 Sharedrop vesting stake will be a flat fee determined by the committee. It will be charged in BTS.
 
 It will be in BTS only and it will be held on a vesting balacne under a specific sharedrop vesting policy  for the period of sharedrop_vesting_period (in weeks) defined by the committee. At the end of the sharedrop_vesting_period, a sharedrop originator will be able to retrieve his funds from the vesting account. 
@@ -84,8 +81,7 @@ Let's say a vesting period is 2 months.
 If a sharedrop originator does another sharedrop before the vesting period is over, the sharedrop_vesting_period counter resets and these 2 months will start from fresh.
 
 ### Complicated vesting cases 
-
-One complicated case is that when the committee increases vesting stake. In this case calculate operation warns the user that he should have more money prepared. And then the sharedrop operation will put more money into vesting. 
+One complicated case is that when the committee increases vesting stake. In this case dry_run_sharedrop operation warns the user that he should have more money prepared. And then the sharedrop operation will put more money into vesting. 
 
 When the committee decreases the vesting stake, the extra money becomes instantly available for withdrawal.  Balance availability is checked during vesting withdrawal operation.
 
@@ -108,18 +104,16 @@ struct sharedrop_result {
 
 There is a function that helps to fill parameters for sharedrop operation
 
-
-
 ```
 // function that helps to fill parameters for sharedrop operation
 // returns  sharedrop_result
-sharedrop_result dry_run_sharedrop(asset sharedrop_asset, asset_id_type stake_asset, share_type min_stake_asset_amount) 
+sharedrop_result dry_run_sharedrop(asset sharedrop_asset, asset_id_type stake_asset,
+share_type min_stake_asset_amount) 
 ```
 
 For sharedrop vesting balance add specific type for vesting_balance_object
 
 ```
-
 struct sharedrop_vesting_policy
 {
 	// money may be claimed after this time  
@@ -128,26 +122,21 @@ struct sharedrop_vesting_policy
 ```
 
 After each sharedrop operation start_clam will be updates as start_claim =TODAY + sharedrop_vesting_period
- 
-
 
 
 # Discussion
-1. Flag allow_sharedrop for an asset. Should we have it?
+1. Flag **allow_sharedrop** for an asset. Should we have it?
 Each asset should have **allow_sharedrop** flag (TRUE/FALSE) that would either allow sharedrop to the holders of this asset or not allow it.
 
-2. One of the ideas is instead of making flat fee vesting for all sharedrop transactions, for each sharedrop transaction we put into vesting a separate amount based on the stakeholder number.
+2. One of the ideas is instead of making flat fee vesting for all sharedrop transactions, for each sharedrop transaction we put into vesting an amount based on the stakeholder number. And we have to put a new amount for every sharedrop transaction.
 In this case, it might quickly become too expensive for some users.
 
-# Summary for Shareholders
-
-# Copyright
-This document is placed in the public domain.
 
 # See Also
 https://github.com/bitshares/bsips/blob/master/bsip-0020.md
 
-
+## Copyright
+This document is placed in the public domain.
 
 # CORE TEAM TASK LIST
 - [ ] Evaluate / Prioritize Feature Request
