@@ -94,6 +94,7 @@ When the committee decreases or increases the sharedrop_vesting_period - the new
 
 ## Technical specifications
 
+'''
 struct sharedrop_result {
 	// cost of sharedrop
 	share_type fee;
@@ -102,7 +103,7 @@ struct sharedrop_result {
 	// money may be claimed after this time
 	fc::time_point_sec vesting_period;
 }
-
+'''
 
 
 There is a function that helps to fill parameters for sharedrop operation
