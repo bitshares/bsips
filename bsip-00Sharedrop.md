@@ -18,6 +18,7 @@ The importance of a similar solution was raised in BSIPs-19, 20,  however never 
 TBD - девелоперам не нужно
 # Rationale
 TBD - девелоперам не нужно
+
 To make it more difficult to abuse the system dropping multiple useless tokens, there will be a vesting stake for the sharedrop operation. For example, vest 5000 bitUSD (in BTS) for 2 month to be able to do sharedrop operation. 
 
 Sharedrop operation should be quite expensive as well. 
@@ -36,26 +37,26 @@ Sharedrop operation will drop the Sharedrop asset in proportion to the stake tha
 
 This is a locally done operation with the following parameters: 
 
-Sharedrop asset
-Sharedrop amount
-Stake asset
-Minimum stake asset amount to participate in airdrop (minimum_amount_for_drop)
+- Sharedrop asset
+- Sharedrop amount
+- Stake asset
+- Minimum stake asset amount to participate in airdrop (minimum_amount_for_drop)
 Calculate operation returns transaction fee for the sharedrop operation as well as if a user has enough money in his sharedrop vesting or if he should prepare additonal funds.
 
 This will be approximate calculation as the final calculation will be determined only during the sharedrop operation.
 
 The following parameters are calculated by a node and presented to the user:  
 
-Sharedrop operation price
-Sharedrop vesting stake 
-sharedrop vesting period
+- Sharedrop operation price
+- Sharedrop vesting stake 
+- Sharedrop vesting period
 ## Sharedrop operation
 
 Sharedrop operation should be available with the following parameters:
 
-Sharedrop asset
-Sharedrop amount
-Stake asset
+- Sharedrop asset
+- Sharedrop amount
+- Stake asset
 Minimum stake asset amount to participate in airdrop (minimum_amount_for_drop)
 Sharedrop operation will drop the Sharedrop asset in proportion to the stake that stakeholders have to their respective vesting balances.
 
