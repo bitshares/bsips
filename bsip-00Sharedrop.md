@@ -27,7 +27,7 @@ However, to make such an expensive operation more lucrative for BtiShares - the 
  
 # Specifications
 ## General workflow
-First of all, there is a need to calculate transaction fee, so dry_run_sharedrop operation should be called on a local node to do calculations.  THe results will be provided (displayed) to a user. 
+First of all, there is a need to calculate transaction fee, so **dry_run_sharedrop** operation should be called on a local node to do calculations.  THe results will be provided (displayed) to a user. 
 
 Then, knowing that user has enough BTS for transaction fees and vesting money, he should call Sharedrop operation itself. Vesting specifics will be covered below. 
 
@@ -39,8 +39,8 @@ This is a locally done operation with the following parameters:
 - Sharedrop asset
 - Sharedrop amount
 - Stake asset
-- Minimum stake asset amount to participate in airdrop (minimum_amount_for_drop)
-**dry_run_sharedrop** operation returns transaction fee for the sharedrop operation as well as if a user has enough money in his sharedrop vesting or if he should prepare additonal funds.
+- Minimum stake asset amount to participate in airdrop (**minimum_amount_for_drop**)
+dry_run_sharedrop operation returns transaction fee for the sharedrop operation as well as if a user has enough money in his sharedrop vesting or if he should prepare additonal funds.
 
 This will be approximate calculation as the final calculation will be determined only during the sharedrop operation.
 
@@ -70,24 +70,22 @@ If an asset holder has too little amount of the stake token it becomes expensive
 So a sharedrop operation should have **minimum_amount_for_drop** property. 
 
 ### Sharedrop price
-sharedrop price should be determined based on the number of accounts (stakeholders) to split the value for, as in `stakeholder_number * sharedrop_price_multiplier.  sharedrop_price_multiplier is defined by the committee.
+sharedrop price should be determined based on the number of accounts (stakeholders) to split the value for, as in `` stakeholder_number * sharedrop_price_multiplier. **sharedrop_price_multiplier** is defined by the committee.
 
 ## Sharedrop vesting stake 
 Sharedrop vesting stake will be a flat fee determined by the committee. It will be charged in BTS.
 
-It will be in BTS only and it will be held on a vesting balacne under a specific sharedrop vesting policy  for the period of sharedrop_vesting_period (in weeks) defined by the committee. At the end of the sharedrop_vesting_period, a sharedrop originator will be able to retrieve his funds from the vesting account. 
+It will be in BTS only and it will be held on a vesting balacne under a specific sharedrop vesting policy  for the period of **sharedrop_vesting_period (in weeks)** defined by the committee. At the end of the sharedrop_vesting_period, a sharedrop originator will be able to retrieve his funds from the vesting account. 
 
 Let's say a vesting period is 2 months.
-If a sharedrop originator does another sharedrop before the vesting period is over, the sharedrop_vesting_period counter resets and these 2 months will start from fresh.
+If a sharedrop originator does another sharedrop before the vesting period is over, the **sharedrop_vesting_period** counter resets and these 2 months will start from fresh.
 
 ### Complicated vesting cases 
-One complicated case is that when the committee increases vesting stake. In this case dry_run_sharedrop operation warns the user that he should have more money prepared. And then the sharedrop operation will put more money into vesting. 
+One complicated case is that when the committee increases vesting stake. In this case **dry_run_sharedrop** operation warns the user that he should have more money prepared. And then the sharedrop operation will put more money into vesting. 
 
 When the committee decreases the vesting stake, the extra money becomes instantly available for withdrawal.  Balance availability is checked during vesting withdrawal operation.
 
-When the committee decreases or increases the sharedrop_vesting_period - the new vesting period is updated during the sharedrop operation. 
-
-
+When the committee decreases or increases the **sharedrop_vesting_period** - the new vesting period is updated during the sharedrop operation. 
 
 ## Technical specifications
 ```
@@ -133,6 +131,7 @@ In this case, it might quickly become too expensive for some users.
 
 
 # See Also
+
 https://github.com/bitshares/bsips/blob/master/bsip-0020.md
 
 ## Copyright
