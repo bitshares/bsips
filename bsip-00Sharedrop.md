@@ -123,7 +123,9 @@ struct sharedrop_vesting_policy
 {
 	// money may be claimed after this time  
 	fc::time_point_sec  start_claim;
-}```
+}
+```
+
 After each sharedrop operation start_clam will be updates as start_claim =TODAY + sharedrop_vesting_period
  
 
