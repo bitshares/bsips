@@ -1,10 +1,10 @@
     BSIP: 00XX
     Title: Sharedrop operation
     Authors: OpenLedgerApp <https://github.com/OpenLedgerApp>
-    Status: Draft
+    Status: Draft 1
     Type: Protocol
-    Created: 2018-12-10
-    Updated: 2018-12-10
+    Created: 2018-12-14
+    Updated: 2018-12-14
     Discussion: 
     Worker: 
  
@@ -93,8 +93,7 @@ When the committee decreases or increases the sharedrop_vesting_period - the new
 
 
 ## Technical specifications
-
-'''
+```
 struct sharedrop_result {
 	// cost of sharedrop
 	share_type fee;
@@ -103,26 +102,30 @@ struct sharedrop_result {
 	// money may be claimed after this time
 	fc::time_point_sec vesting_period;
 }
-'''
+```
 
 
 There is a function that helps to fill parameters for sharedrop operation
 
+
+
+```
 // function that helps to fill parameters for sharedrop operation
 // returns  sharedrop_result
 sharedrop_result dry_run_sharedrop(asset sharedrop_asset, asset_id_type stake_asset, share_type min_stake_asset_amount) 
+```
 
-
-// share_type max_fee - a max value that caller agree to pay
-void sharedrop(asset sharedrop_asset, asset_id_type stake_asset, share_type min_stake_asset_amount, share_type max_fee) 
 For sharedrop vesting balance add specific type for vesting_balance_object
+
+```
 
 struct sharedrop_vesting_policy
 {
 	// money may be claimed after this time  
 	fc::time_point_sec  start_claim;
-}
-After each sharedrop operation start_clam will be updates as start_claim =TODAY + sharedrop_vesting_period 
+}```
+After each sharedrop operation start_clam will be updates as start_claim =TODAY + sharedrop_vesting_period
+ 
 
 
 
@@ -150,3 +153,6 @@ https://github.com/bitshares/bsips/blob/master/bsip-0020.md
 - [ ] Design / Develop Solution
 - [ ] Perform QA/Testing
 - [ ] Update Documentation
+
+
+
