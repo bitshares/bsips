@@ -1,23 +1,26 @@
-    BSIP: 00TBD
+    BSIP: TBD
     Title: Sharedrop operation
     Authors: OpenLedgerApp <https://github.com/OpenLedgerApp>
     Status: Draft
     Type: Protocol
-    Created: 2018-12-14
-    Updated: 2018-12-14
+    Created: 2018-12-17
+    Updated: 2018-12-17
     Discussion: 
     Worker: 
  
 A sharedrop is a giveaway of some tokens to a certain group of people, for example to all BTS holders in proportion to their holdings.
+
 # Abstract
 We should add the ability to distribute arbitrary amount of some token (SHAREDROP token) to holders of a specific other token (STAKE token)  according to the share(stake) of such tokens.
 The importance of a similar solution was raised in BSIPs-19, 20,  however never implemented. (link below).
 
 
 # Motivation
-TBD - девелоперам не нужно
+By implementing this proposal, we let Asset Owners or other businesses an opportunity to distribute their profit to the holders of a specific asset in proportion of the owned amount of this asset.
+
+Also, usual token drops can be done via the sharedrop operation.
+
 # Rationale
-TBD - девелоперам не нужно
 
 
 - Other cryptocurrency platforms offer profit-sharing/dividends functionality, such as Peerplays/NXT/CounterParty/DigixDAO/LBRY/Waves/Dash.

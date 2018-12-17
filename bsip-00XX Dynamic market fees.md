@@ -1,10 +1,10 @@
-    BSIP: 00TBD
+    BSIP: TBD
     Title: Dynamic Market Fees
     Authors: OpenLedgerApp <https://github.com/OpenLedgerApp>
     Status: Draft
     Type: Protocol
-    Created: 2018-12-10
-    Updated: 2018-12-10
+    Created: 2018-12-17
+    Updated: 2018-12-17
     Discussion: 
     Worker: TBD
 # Abstract
@@ -171,4 +171,12 @@ This document is placed in the public domain.
 # See Also
 
 High-level proposal and discussion https://github.com/bitshares/bsips/issues/130
+
+# CORE TEAM TASK LIST
+- [ ] Evaluate / Prioritize Feature Request
+- [ ] Refine User Stories / Requirements
+- [ ] Define Test Cases
+- [ ] Design / Develop Solution
+- [ ] Perform QA/Testing
+- [ ] Update Documentation
 
