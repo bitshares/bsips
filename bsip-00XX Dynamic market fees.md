@@ -5,7 +5,7 @@
     Type: Protocol
     Created: 2018-12-10
     Updated: 2018-12-10
-    Discussion: https://github.com/bitshares/bsips/issues/130
+    Discussion: [https://github.com/bitshares/bsips/issues/130] (https://github.com/bitshares/bsips/issues/130)
     Worker: TBD
 # Abstract
 UIA owners do not have many marketing tools to increase trade volume of their assets.
