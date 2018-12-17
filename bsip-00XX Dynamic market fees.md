@@ -130,7 +130,8 @@ The algorithm is like this:
 Let's say today's volume is 13. 
 First of all, we subtract average daily volume from the 30-day volume.  90-3 =87.
 Then we add today's volume.  So the new 30-day volume would be 87+13 = 100.  
-A new daily average would be 100/30 = 3.33333```
+A new daily average would be 100/30 = 3.33333
+```
 
 ### 365-day sliding window average 
 
