@@ -19,10 +19,14 @@ TBD - девелоперам не нужно
 # Rationale
 TBD - девелоперам не нужно
 
+
+- Other cryptocurrency platforms offer profit-sharing/dividends functionality, such as Peerplays/NXT/CounterParty/DigixDAO/LBRY/Waves/Dash.
+- Most (if not all) Bitcoin forks (1000's of them) have 'sendmany' functionality which enables the mass distribution of their tokens against a large quantity of users (addresses) in a single transaction; this is currently not possible within the BTS DEX (unless I'm mistaken?).
+
 To make it more difficult to abuse the system dropping multiple useless tokens, there will be a vesting stake for the sharedrop operation. For example, vest 5000 bitUSD (in BTS) for 2 month to be able to do sharedrop operation. 
 
-Sharedrop operation should be quite expensive as well. 
-However, to make such an expensive operation more lucrative for BtiShares - the sharedrop operation will send the money to each stakeholder's vesting balance. Thus making them withdraw the drop from the vesting balances.
+Sharedrop operation should also be quite expensive as well. 
+However, to make such an operation more lucrative for BtiShares - the sharedrop operation will send the money to each stakeholder's vesting balance. Thus making them withdraw the drop from the vesting balances.
 
  
 # Specifications

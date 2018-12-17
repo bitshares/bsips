@@ -126,12 +126,13 @@ So the memory requirements will be at least 30 times less than in a previous met
 
 The algorithm is like this:
 
-```For example, the 30-day volume is 90. Hence daily average is 3. 
+```
+For example, the 30-day volume is 90. Hence daily average is 3. 
 Let's say today's volume is 13. 
 First of all, we subtract average daily volume from the 30-day volume.  90-3 =87.
 Then we add today's volume.  So the new 30-day volume would be 87+13 = 100.  
 A new daily average would be 100/30 = 3.33333
-```
+``` 
 
 ### 365-day sliding window average 
 
