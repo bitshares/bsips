@@ -87,11 +87,11 @@ We need to update statistics for the user and for the specific asset at the same
 
 **Trader Activity** is estimated as average trading volume of a user for a given asset for 1 day.
 
-`Trader_activity = total_volume / (Now - first_start_date) //(in days).
-`
+`Trader_activity = total_volume / (Now - first_start_date) //(in days).`
+
 This way we accumulate total bought volume for each user for each asset and average out daily volumes for his entire term of trading of this asset (per day).
 
-Volume discounts are estimated based on the average daily Trader_Activity  * 30 days.
+Volume discounts are estimated based on the average daily `Trader_Activity  * 30 days.`
 
 _Trade statistics object_
 
@@ -109,11 +109,11 @@ share_type total_volume; //total bought asset volume
 
 ### 30-day sliding window average 
 
-In `trade_statistics_object` we need to store the queue of volumes aggregated by 1 day. In other words, for each asset a user should have a queue of 30  daily volumes.
+In **trade_statistics_object** we need to store the queue of volumes aggregated by 1 day. In other words, for each asset a user should have a queue of 30  daily volumes.
 
 During the first maintenance interval of the day, yesterday's volume will be added to the queue and the  oldest volume will be deleted (for each asset even for assets where there was no trade done).
 
-This way it will cost significant memory usage!!!
+This way it will cost significant memory usage!!
 
 Technically we can store only the aggregated sum for 30 days and take the first day volumes from the blockchain. This will take less memory but will take more CPU time.
 
@@ -124,10 +124,13 @@ Alternative way would be to store one 30-day volume for each asset for each user
 
 So the memory requirements will be at least 30 times less than in a previous method.
 
-The algorithm is like this: 
-For example, the 30-day volume is 90. Hence daily average is 3. Let's say today's volume is 13. 
+The algorithm is like this:
+
+```For example, the 30-day volume is 90. Hence daily average is 3. 
+Let's say today's volume is 13. 
 First of all, we subtract average daily volume from the 30-day volume.  90-3 =87.
-Then we add today's volume.  So the new 30-day volume would be 87+13 = 100.  A new daily average would be 100/30 = 3.33333
+Then we add today's volume.  So the new 30-day volume would be 87+13 = 100.  
+A new daily average would be 100/30 = 3.33333```
 
 ### 365-day sliding window average 
 
