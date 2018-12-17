@@ -169,3 +169,6 @@ Some problems include performance as an additional search and update new index a
 This document is placed in the public domain.
 
 # See Also
+https://github.com/bitshares/bsips/issues/130
+
+
