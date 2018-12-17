@@ -6,7 +6,7 @@
     Created: 2018-12-10
     Updated: 2018-12-10
     Discussion: https://github.com/bitshares/bsips/issues/130
-    Worker: <Id of worker proposal> (optional)
+    Worker: TBD
 # Abstract
 UIA owners do not have many marketing tools to increase trade volume of their assets.
 
