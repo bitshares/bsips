@@ -16,9 +16,9 @@ For example, to set lower fees for trading larger volumes.
 So, instead of market fee, an asset owner can optionally set up dynamic_market_fee_percent property that may look like a following example table.
 **Please refer to the general notes below for terms explanation.**
 
-|Trade daily volume|Maker|Taker|
-|< 500 USD|0.19%|0.20%|
-|>=500 USD|0.18%|0.20%|
+Trade daily volume|Maker|Takerq
+< 500 USD|0.19%|0.20%
+>=500 USD|0.18%|0.20%
 
 
 
