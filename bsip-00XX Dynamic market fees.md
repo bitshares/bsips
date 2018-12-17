@@ -14,6 +14,12 @@ One of the ways to increase the trade volume can be Dynamic Market Fees that wil
 For example, to set lower fees for trading larger volumes.
 
 So, instead of market fee, an asset owner can optionally set up dynamic_market_fee_percent property that may look like a following example table.
+**Please refer to the general notes below for terms explanation.**
+
+|Trade daily volume|Maker|Taker|
+|< 500 USD|0.19%|0.20%|
+|>=500 USD|0.18%|0.20%|
+
 
 
 ## Motivation
@@ -43,25 +49,29 @@ A switch **market_fee_type (REGULAR, DYNAMIC)** should clearly indicate, which m
 
 And **takers** are the ones to put up their orders later in time than makers. 
 
+The following table 
 # Discussion
 
 We have had a discussion what's the best way to average out Trading Volume.
 
 There are a few ways of doing this: 
 
-Use an average volume since day the beginning of trading.  
+- Use an **average volume since day the beginning of trading**.  
 Up for discussion is - what to take as a day 1. 1st trade of this asset? 1st trade minus 30 days?  Account open date? 
 This way we have a normal fair average volume if we figure out the fair beginning interval date.
 However, if a trader started trading this asset a few years ago he might be in a significant disadvantage.
 
-Average trading volume over the last 30 days - sliding window.
+- **Average trading volume over the last 30 days - sliding window**.
 This way it is a bit clearer how to calculate. 
 However there might be extreme but real cases where this kind of calculation might not be fair: 
 a. when a person who usually trades high volumes throughout the year goes to vacation for 30 days. Suddenly all his discount is gone when he comes back
 b.   When another person comes in and makes 1 or 2 high volume trades while trading really low volumes before that. Suddenly this person might have a big discount. 
 30-day volume 
 This mehod gives enough information to figure out last 30-days traders habits with much lower memory requirements but slightly less precision than the 30-day average sliding window.
-Average trading volume over the last 365 days (a year). 
+Average trading volume over the last 365 days (a year) is a variation of this method.
+
+- **30-day volume method**
+This is quite similar to the 30-day average method and shares it's advantages and drawbacks.
 
 # Technical Specifications
 
