@@ -8,7 +8,7 @@
     Discussion: https://github.com/bitshares/bsips/issues/130
     Worker: <Id of worker proposal> (optional)
 # Abstract
-UIA owners does not have many marketing tools to increase trade volume of their assets.
+UIA owners do not have many marketing tools to increase trade volume of their assets.
 
 One of the ways to increase the trade volume can be Dynamic Market Fees that will provide additional discounts for active traders.
 For example, to set lower fees for trading larger volumes.
@@ -37,7 +37,7 @@ Fees are charged and deduced on a per-trade basis. The bigger â€œtrading volumeâ
 # General notes
 Each asset will have either usual market fee or a table with dynamic market fees that will represent the table above. 
 
-A switch market_fee_type (REGULAR, DYNAMIC) should clearly indicate, which market fee type is used.
+A switch **market_fee_type (REGULAR, DYNAMIC)** should clearly indicate, which market fee type is used.
 
 **Makers** are the ones who put up their orders first.
 
@@ -67,7 +67,7 @@ Average trading volume over the last 365 days (a year).
 
 We suggest using average total volume for a particular asset. However, it's open for the discussion.
 
-## Statistics Storage**
+## Statistics Storage
 
 There are two options for storing account statistics for trading:
 

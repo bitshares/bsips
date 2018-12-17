@@ -1,7 +1,7 @@
     BSIP: 00XX
     Title: Sharedrop operation
     Authors: OpenLedgerApp <https://github.com/OpenLedgerApp>
-    Status: Draft 1
+    Status: Draft
     Type: Protocol
     Created: 2018-12-14
     Updated: 2018-12-14
@@ -70,7 +70,7 @@ If an asset holder has too little amount of the stake token it becomes expensive
 So a sharedrop operation should have **minimum_amount_for_drop** property. 
 
 ### Sharedrop price
-sharedrop price should be determined based on the number of accounts (stakeholders) to split the value for, as in `` stakeholder_number * sharedrop_price_multiplier. **sharedrop_price_multiplier** is defined by the committee.
+sharedrop price should be determined based on the number of accounts (stakeholders) to split the value for, as in `stakeholder_number * sharedrop_price_multiplier`, where **sharedrop_price_multiplier** is defined by the committee.
 
 ## Sharedrop vesting stake 
 Sharedrop vesting stake will be a flat fee determined by the committee. It will be charged in BTS.
@@ -80,12 +80,12 @@ It will be in BTS only and it will be held on a vesting balacne under a specific
 Let's say a vesting period is 2 months.
 If a sharedrop originator does another sharedrop before the vesting period is over, the **sharedrop_vesting_period** counter resets and these 2 months will start from fresh.
 
-### Complicated vesting cases 
-One complicated case is that when the committee increases vesting stake. In this case **dry_run_sharedrop** operation warns the user that he should have more money prepared. And then the sharedrop operation will put more money into vesting. 
+### Complicated vesting cases, when the committee updates sharedrop vesting parameters.
+- Vesting stake increases. In this case **dry_run_sharedrop** operation warns the user that he should have more money prepared. And then the sharedrop operation will put more money into vesting. 
 
-When the committee decreases the vesting stake, the extra money becomes instantly available for withdrawal.  Balance availability is checked during vesting withdrawal operation.
+- Vesting stake decreases. Then the extra money becomes instantly available for withdrawal.  Balance availability is checked during vesting withdrawal operation.
 
-When the committee decreases or increases the **sharedrop_vesting_period** - the new vesting period is updated during the sharedrop operation. 
+-  **Sharedrop_vesting_period** decreases or increases. The new vesting period is updated during the next sharedrop operation. 
 
 ## Technical specifications
 ```
