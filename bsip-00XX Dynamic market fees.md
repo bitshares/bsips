@@ -19,7 +19,7 @@ So, instead of market fee, an asset owner can optionally set up dynamic_market_f
 Trade daily volume | Maker fee, % | Taker fee, %
 ---|---|---
 < 500 USD | 0.19% | 0.20%
->=500 USD | 0.18% | 0.20%                        
+\>=500 USD | 0.18% | 0.20%                        
 
 Number             | Title                                                    | Owner             | Type           | Status
 -------------------|----------------------------------------------------------|-------------------|----------------|--------
