@@ -1,4 +1,4 @@
-    BSIP: 00XX
+    BSIP: 00TBD
     Title: Sharedrop operation
     Authors: OpenLedgerApp <https://github.com/OpenLedgerApp>
     Status: Draft

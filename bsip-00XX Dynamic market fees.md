@@ -1,11 +1,11 @@
-    BSIP: 00XX
+    BSIP: 00TBD
     Title: Dynamic Market Fees
     Authors: OpenLedgerApp <https://github.com/OpenLedgerApp>
     Status: Draft
     Type: Protocol
     Created: 2018-12-10
     Updated: 2018-12-10
-    Discussion: [https://github.com/bitshares/bsips/issues/130] (https://github.com/bitshares/bsips/issues/130)
+    Discussion: 
     Worker: TBD
 # Abstract
 UIA owners do not have many marketing tools to increase trade volume of their assets.
@@ -170,5 +170,5 @@ This document is placed in the public domain.
 
 # See Also
 
-https://github.com/bitshares/bsips/issues/130
+High-level proposal and discussion https://github.com/bitshares/bsips/issues/130
 
