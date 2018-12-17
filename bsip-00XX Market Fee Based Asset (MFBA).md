@@ -6,9 +6,8 @@
     Created: 2018-12-17
     Updated: 2018-12-17
     Discussion: 
-    Worker: 
+    Worker: TBD
 
- 
 # Abstract
 Market Fee Backed Asset (MFBA) is a SmartCoin introduced by this BSIP. 
 The main idea of a MFBA is to provide opportunity for the Assets Owners to automatically share revenue received from trading operations (Market Fees) to the holders of the MFBA in proportion of the owned amount of the MFBA.

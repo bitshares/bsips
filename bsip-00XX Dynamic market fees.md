@@ -7,6 +7,7 @@
     Updated: 2018-12-17
     Discussion: 
     Worker: TBD
+    
 # Abstract
 UIA owners do not have many marketing tools to increase trade volume of their assets.
 
@@ -14,7 +15,7 @@ One of the ways to increase the trade volume can be Dynamic Market Fees that wil
 For example, to set lower fees for trading larger volumes.
 
 So, instead of market fee, an asset owner can optionally set up dynamic_market_fee_percent property that may look like a following example table.
-**Please refer to the general notes below for terms explanation.**
+**Please refer to the general notes below for terms (maker, taker) explanation.**
 
 Trade daily volume | Maker fee, % | Taker fee, %
 ---|---|---

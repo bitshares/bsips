@@ -6,7 +6,7 @@
     Created: 2018-12-17
     Updated: 2018-12-17
     Discussion: 
-    Worker: 
+    Worker: TBD
  
 A sharedrop is a giveaway of some tokens to a certain group of people, for example to all BTS holders in proportion to their holdings.
 
@@ -22,9 +22,8 @@ Also, usual token drops can be done via the sharedrop operation.
 
 # Rationale
 
-
 - Other cryptocurrency platforms offer profit-sharing/dividends functionality, such as Peerplays/NXT/CounterParty/DigixDAO/LBRY/Waves/Dash.
-- Most (if not all) Bitcoin forks (1000's of them) have 'sendmany' functionality which enables the mass distribution of their tokens against a large quantity of users (addresses) in a single transaction; this is currently not possible within the BTS DEX (unless I'm mistaken?).
+- Most (if not all) Bitcoin forks (1000's of them) have 'sendmany' functionality which enables the mass distribution of their tokens against a large quantity of users (addresses) in a single transaction; this is currently not possible within BitShares.
 
 To make it more difficult to abuse the system dropping multiple useless tokens, there will be a vesting stake for the sharedrop operation. For example, vest 5000 bitUSD (in BTS) for 2 month to be able to do sharedrop operation. 
 
@@ -151,6 +150,4 @@ This document is placed in the public domain.
 - [ ] Design / Develop Solution
 - [ ] Perform QA/Testing
 - [ ] Update Documentation
-
-
 
