@@ -16,11 +16,14 @@ For example, to set lower fees for trading larger volumes.
 So, instead of market fee, an asset owner can optionally set up dynamic_market_fee_percent property that may look like a following example table.
 **Please refer to the general notes below for terms explanation.**
 
-Trade daily volume|Maker|Takerq
-< 500 USD|0.19%|0.20%
->=500 USD|0.18%|0.20%
+Trade daily volume | Maker fee, % | Taker fee, %
+< 500 USD | 0.19% | 0.20%
+>=500 USD | 0.18% | 0.20%                        
 
-
+Number             | Title                                                    | Owner             | Type           | Status
+-------------------|----------------------------------------------------------|-------------------|----------------|--------
+[1](bsip-0001.md)  | BSIP Purpose and Guidelines                              | Fabian Schuh      | Informational  | Draft
+[2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Installed
 
 ## Motivation
 - To provide additional marketing tools to encourage traders. 
