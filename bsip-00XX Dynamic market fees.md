@@ -172,5 +172,3 @@ This document is placed in the public domain.
 
 https://github.com/bitshares/bsips/issues/130
 
-
-### End of Document
