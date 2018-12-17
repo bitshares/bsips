@@ -20,11 +20,16 @@ Trade daily volume | Maker fee, % | Taker fee, %
 ---|---|---
 < 500 USD | 0.19% | 0.20%
 \>=500 USD | 0.18% | 0.20%                        
+\>=1K USD | 0.17% | 0.20%                        
+\>=2.5 K USD | 0.16% | 0.19%                        
+\>=5K USD | 0.15% | 0.18%                        
+\>=7.5K USD | 0.14% | 0.17%                        
+\>=10K USD | 0.1% | 0.15%                        
+\>=15K USD | 0.075% | 0.13%                        
+\>=20K USD | 0.05% | 0.12%                        
+\>=25K USD | 0.025% | 0.11%                        
+\>=50K USD | 0.01% | 0.07%                        
 
-Number             | Title                                                    | Owner             | Type           | Status
--------------------|----------------------------------------------------------|-------------------|----------------|--------
-[1](bsip-0001.md)  | BSIP Purpose and Guidelines                              | Fabian Schuh      | Informational  | Draft
-[2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Installed
 
 ## Motivation
 - To provide additional marketing tools to encourage traders. 
