@@ -17,7 +17,6 @@ So, instead of market fee, an asset owner can optionally set up dynamic_market_f
 
 
 ## Motivation
-
 - To provide additional marketing tools to encourage traders. 
 - To increase trading volume on BitShares. 
 - To attract traders to the ecosystem.
@@ -25,8 +24,7 @@ So, instead of market fee, an asset owner can optionally set up dynamic_market_f
 # Rationale
 
 ## Use cases:
-
-**1) Supporting money makers.**
+**1) Supporting market makers.**
 Every trade occurs between two parties: the maker, whose order exists on the order book prior to the trade, and the taker, who places the order that matches (or "takes") the maker's order.
 
 Makers are so named because their orders make the liquidity in a market. Takers are the ones who remove this liquidity by matching makers' orders with their own.
@@ -37,7 +35,6 @@ The maker-taker model encourages market liquidity by rewarding the makers of tha
 Fees are charged and deduced on a per-trade basis. The bigger “trading volume” users have traded, the lower fee they get on subsequent trades.
 
 # General notes
-
 Each asset will have either usual market fee or a table with dynamic market fees that will represent the table above. 
 
 A switch market_fee_type (REGULAR, DYNAMIC) should clearly indicate, which market fee type is used.
