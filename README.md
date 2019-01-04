@@ -51,3 +51,4 @@ Number             | Title                                                    | 
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
 [44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Draft
 [45](bsip-0045.md) | Introduce 'allow use as bitasset backing collateral' flag/permission to assets | Customminer | Protocol | Draft
+[57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
