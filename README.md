@@ -62,3 +62,4 @@ Number             | Title                                                    | 
 [53](https://github.com/bitshares/bsips/pull/116) | Blockchain scanning for inbound Stealth transactions    | Chris Sanborn | Protocol      | Draft
 [54](https://github.com/bitshares/bsips/pull/) | Deterministic addresses for Stealth wallets                | Chris Sanborn | Informational | Draft
 [55](https://github.com/bitshares/bsips/pull/) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
+[57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
