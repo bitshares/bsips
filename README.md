@@ -63,4 +63,4 @@ Number             | Title                                                    | 
 [54](https://github.com/bitshares/bsips/pull/) | Deterministic addresses for Stealth wallets                | Chris Sanborn | Informational | Draft
 [55](https://github.com/bitshares/bsips/pull/) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
-[58](https://github.com/bitshares/bsips/pull/) | Global Settlement Protection Through Price Feeding | Jerry Liu | Protocol | Draft
+[58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Protocol | Draft
