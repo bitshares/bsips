@@ -51,7 +51,7 @@ Number             | Title                                                    | 
 [41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Protocol | Draft
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
 [43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted
-[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted
+[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | In TESTNET
 [45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Draft
 [47](https://github.com/bitshares/bsips/pull/114) | An Explicit Voting Operation                 | Fabian Schuh | Protocol | Draft
