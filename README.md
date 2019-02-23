@@ -64,5 +64,7 @@ Number             | Title                                                    | 
 [55](https://github.com/bitshares/bsips/pull/) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
 [58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Protocol | Draft
-[59](https://github.com/bitshares/bsips/issues/140) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
-[60](https://github.com/bitshares/bsips/issues/131) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational | Draft
+Abit More | Informational | Draft
+[59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
+[60](https://github.com/bitshares/bsips/issues/131) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Draft
+[61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
