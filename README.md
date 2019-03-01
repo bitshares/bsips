@@ -66,4 +66,3 @@ Number             | Title                                                    | 
 [58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Protocol | Draft
 [59](https://github.com/bitshares/bsips/issues/140) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
 [60](https://github.com/bitshares/bsips/issues/131) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational | Draft
-[61](https://github.com/bitshares/bsips/pull/) | Fix locked accounts with circular dependencies             | OpenLedgerApp | Protocol      | Draft
