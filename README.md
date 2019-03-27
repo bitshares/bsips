@@ -50,8 +50,8 @@ Number             | Title                                                    | 
 [40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Accepted - Milestone 1
 [41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Protocol | Accepted
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Rejected
-[43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted
-[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted - In TESTNET
+[43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted - Pending Activation
+[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted - Pending Activation
 [45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Draft
 [47](https://github.com/bitshares/bsips/pull/114) | An Explicit Voting Operation                 | Fabian Schuh | Protocol | Draft
@@ -65,5 +65,5 @@ Number             | Title                                                    | 
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
 [58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Protocol | Draft
 [59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
-[60](https://github.com/bitshares/bsips/issues/131) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Draft
+[60](bsip-0060.md) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Draft
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
