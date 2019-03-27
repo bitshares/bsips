@@ -50,7 +50,7 @@ Number             | Title                                                    | 
 [40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Accepted - Milestone 1
 [41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Protocol | Accepted
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Rejected
-[43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted
+[43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted - Pending Activation
 [44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted - Pending Activation
 [45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Draft
