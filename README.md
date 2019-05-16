@@ -56,12 +56,12 @@ Number             | Title                                                    | 
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Draft
 [47](https://github.com/bitshares/bsips/pull/114) | An Explicit Voting Operation                 | Fabian Schuh | Protocol | Draft
 [48](https://github.com/bitshares/bsips/pull/115) | Add Flag to Asset to Prevent Manipulating Max Supply | Fabian Schuh | Protocol | Draft
-[50](https://github.com/bitshares/bsips/pull/) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
-[51](https://github.com/bitshares/bsips/pull/) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
-[52](https://github.com/bitshares/bsips/pull/) | Ring signatures for untraceability of Stealth transactions | Chris Sanborn | Protocol      | Draft
+[50](https://github.com/bitshares/bsips/issues/88) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
+[51](https://github.com/bitshares/bsips/issues/89) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
+[52](https://github.com/bitshares/bsips/issues/90) | Ring signatures for untraceability of Stealth transactions | Chris Sanborn | Protocol      | Draft
 [53](https://github.com/bitshares/bsips/pull/116) | Blockchain scanning for inbound Stealth transactions    | Chris Sanborn | Protocol      | Draft
-[54](https://github.com/bitshares/bsips/pull/) | Deterministic addresses for Stealth wallets                | Chris Sanborn | Informational | Draft
-[55](https://github.com/bitshares/bsips/pull/) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
+[54](https://github.com/bitshares/bsips/issues/92) | Deterministic addresses for Stealth wallets                | Chris Sanborn | Informational | Draft
+[55](https://github.com/bitshares/bsips/issues/93) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
 [58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Protocol | Draft
 [59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
