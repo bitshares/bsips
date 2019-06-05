@@ -15,7 +15,7 @@ Number             | Title                                                    | 
 [1](bsip-0001.md)  | BSIP Purpose and Guidelines                              | Fabian Schuh      | Informational  | Draft
 [2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Installed
 [3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Deferred
-[4](bsip-0004.md)  | Distribute Market Fees on Core Asset to Referral Program | Daniel Larimer    | Protocol       | Draft
+[4](bsip-0004.md)  | Distribute Market Fees on Core Asset to Referral Program | Daniel Larimer    | Protocol       | Obsoleted by [43](bsip-0043.md)
 [5](bsip-0005.md)  | Expiring Votes for Witnesses                             | Daniel Larimer    | Protocol       | Draft
 [6](bsip-0006.md)  | Market Maker Incentivization                             | Daniel Larimer    | Protocol       | Draft
 [7](bsip-0007.md)  | Fee Backed Assets (FBA)                                  | Daniel Larimer    | Protocol       | Installed
@@ -47,19 +47,23 @@ Number             | Title                                                    | 
 [37](bsip-0037.md) | Allow new asset name to end with a number                                   | oxarbitrage | Protocol | Installed
 [38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Installed
 [39](bsip-0039.md) | Automatically approve proposals by the proposer                             | Fabian Schuh | Protocol | Draft
-[40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Draft
-[41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Protocol | Draft
-[42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Draft
-[43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted
-[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted
+[40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Accepted - Milestone 1
+[41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Protocol | Accepted
+[42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Rejected
+[43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Accepted - Pending Activation
+[44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Accepted - Pending Activation
 [45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Draft
 [47](https://github.com/bitshares/bsips/pull/114) | An Explicit Voting Operation                 | Fabian Schuh | Protocol | Draft
 [48](https://github.com/bitshares/bsips/pull/115) | Add Flag to Asset to Prevent Manipulating Max Supply | Fabian Schuh | Protocol | Draft
-[50](https://github.com/bitshares/bsips/pull/) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
-[51](https://github.com/bitshares/bsips/pull/) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
-[52](https://github.com/bitshares/bsips/pull/) | Ring signatures for untraceability of Stealth transactions | Chris Sanborn | Protocol      | Draft
+[50](https://github.com/bitshares/bsips/issues/88) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
+[51](https://github.com/bitshares/bsips/issues/89) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
+[52](https://github.com/bitshares/bsips/issues/90) | Ring signatures for untraceability of Stealth transactions | Chris Sanborn | Protocol      | Draft
 [53](https://github.com/bitshares/bsips/pull/116) | Blockchain scanning for inbound Stealth transactions    | Chris Sanborn | Protocol      | Draft
-[54](https://github.com/bitshares/bsips/pull/) | Deterministic addresses for Stealth wallets                | Chris Sanborn | Informational | Draft
-[55](https://github.com/bitshares/bsips/pull/) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
+[54](https://github.com/bitshares/bsips/issues/92) | Deterministic addresses for Stealth wallets                | Chris Sanborn | Informational | Draft
+[55](https://github.com/bitshares/bsips/issues/93) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
+[58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Protocol | Draft
+[59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
+[60](bsip-0060.md) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Draft
+[61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
