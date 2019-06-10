@@ -69,10 +69,10 @@ Number             | Title                                                    | 
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
 [62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Draft
 [63](https://github.com/bitshares/bsips/issues/172) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
-[64](https://github.com/bitshares/bsips/issues/149) | Hashed Time-Locked Contract (Replacement for BSIP44) | Ryan R. Fox | Protocol | Draft
+[64](https://github.com/bitshares/bsips/issues/174) | Hashed Time-Locked Contract (Replacement for BSIP44) | Ryan R. Fox | Protocol | Draft
 [65](https://github.com/bitshares/bsips/pull/149) | Fix Locked Accounts | OpenLedger | Protocol | Draft
 [66](https://github.com/bitshares/bsips/pull/132) | Sharedrop Operation | OpenLedger | Protocol | Draft
 [67](https://github.com/bitshares/bsips/pull/133) | Dynamic Market Fees | OpenLedger | Protocol | Draft
 [68](https://github.com/bitshares/bsips/pull/134) | Market Fee Based Asset | OpenLedger | Protocol | Draft
-[69](https://github.com/bitshares/bsips/pull/134) | Additional Assert Predicates | Christopher J. Sanborn | Protocol | Draft
+[69](https://github.com/bitshares/bsips/issues/175) | Additional Assert Predicates | Christopher J. Sanborn | Protocol | Draft
 [70](https://github.com/bitshares/bsips/issues/170) | Lending for Margin Trading (Variant A) | George Harrap, Michel Santos | Protocol | Draft
