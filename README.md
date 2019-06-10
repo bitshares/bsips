@@ -59,7 +59,7 @@ Number             | Title                                                    | 
 [50](https://github.com/bitshares/bsips/issues/88) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
 [51](https://github.com/bitshares/bsips/issues/89) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
 [52](https://github.com/bitshares/bsips/issues/90) | Ring signatures for untraceability of Stealth transactions | Chris Sanborn | Protocol      | Draft
-[53](https://github.com/bitshares/bsips/pull/116) | Blockchain scanning for inbound Stealth transactions    | Chris Sanborn | Protocol      | Draft
+[53](https://github.com/bitshares/bsips/pull/116) | Blockchain scanning for inbound Stealth transactions    | Chris Sanborn | Informational (Client Protocol) | Draft
 [54](https://github.com/bitshares/bsips/issues/92) | Deterministic addresses for Stealth wallets                | Chris Sanborn | Informational | Draft
 [55](https://github.com/bitshares/bsips/issues/93) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
@@ -69,3 +69,10 @@ Number             | Title                                                    | 
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
 [62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Draft
 [63](https://github.com/bitshares/bsips/issues/172) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
+[64](https://github.com/bitshares/bsips/issues/174) | Hashed Time-Locked Contract (Replacement for BSIP44) | Ryan R. Fox | Protocol | Draft
+[65](https://github.com/bitshares/bsips/pull/149) | Fix Locked Accounts | OpenLedger | Protocol | Draft
+[66](https://github.com/bitshares/bsips/pull/132) | Sharedrop Operation | OpenLedger | Protocol | Draft
+[67](https://github.com/bitshares/bsips/pull/133) | Dynamic Market Fees | OpenLedger | Protocol | Draft
+[68](https://github.com/bitshares/bsips/pull/134) | Market Fee Based Asset | OpenLedger | Protocol | Draft
+[69](https://github.com/bitshares/bsips/issues/175) | Additional Assert Predicates | Christopher J. Sanborn | Protocol | Draft
+[70](https://github.com/bitshares/bsips/issues/170) | Lending for Margin Trading (Variant A) | George Harrap, Michel Santos | Protocol | Draft
