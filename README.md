@@ -13,7 +13,7 @@ detailed explanation.
 Number             | Title                                                    | Owner             | Type           | Status
 -------------------|----------------------------------------------------------|-------------------|----------------|--------
 [1](bsip-0001.md)  | BSIP Purpose and Guidelines                              | Fabian Schuh      | Informational  | Draft
-[2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Installed
+[2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Superseded by [26](bsip-0026.md)
 [3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Deferred
 [4](bsip-0004.md)  | Distribute Market Fees on Core Asset to Referral Program | Daniel Larimer    | Protocol       | Obsoleted by [43](bsip-0043.md)
 [5](bsip-0005.md)  | Expiring Votes for Witnesses                             | Daniel Larimer    | Protocol       | Draft
@@ -36,7 +36,7 @@ Number             | Title                                                    | 
 [26](bsip-0026.md) | Refund Order Creation Fee in Originally Paid Asset on Cancel | Abit More | Protocol | Installed
 [27](bsip-0027.md) | Asset Issuer Reclaim Fee Pool Funds                          | Abit More | Protocol | Installed
 [28](bsip-0028.md) | Worker Proposal Improvements                                 | Bill Butler | Protocol | Draft
-[29](bsip-0029.md) | Asset issue change to require owner authority                | Fabian Schuh | Protocol | Installed
+[29](bsip-0029.md) | Asset issuer change to require owner authority               | Fabian Schuh | Protocol | Installed
 [30](bsip-0030.md) | Always Allow Increasing Collateral Ratio If Debt Not Increased | Abit More | Protocol | Installed
 [31](bsip-0031.md) | Update Short Position's Margin Call Price After Partially Called Or Settled | Abit More | Protocol | Installed
 [32](bsip-0032.md) | Always Match Orders At Maker Price                                          | Abit More | Protocol | Installed
