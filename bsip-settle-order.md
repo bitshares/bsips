@@ -1,0 +1,210 @@
+    BSIP: TBD
+    Title: Match force-settlement orders with margin calls and limit orders
+    Author: Abit More <https://github.com/abitmore>
+    Status: Draft
+    Type: Protocol
+    Created: 2019-06-09
+    Discussion: https://github.com/bitshares/bsips/issues/181
+    Worker: TBD
+
+# Abstract
+
+This BSIP proposes a protocol change to improve user experience (UX) of
+force-settlements by trying to fill force-settlement orders at better price
+and optionally fill settle orders before expiration when certain conditions
+are met.
+
+# Motivation
+
+Force-settlements were designed for debt asset holders to convert debt asset
+to collateral asset *when there is nobody willing to buy back the debt at
+fair price*. 
+
+To mitigate malious behavior and market manipulation, a delay and a price
+offset were designed. But the mechanism has flaws.
+* Force-settlement requesters always "buy expensive" even when there are
+  orders "selling low". This also leads to occasional spikes in the market
+  history charts.
+* Force-settlement requesters have to wait for the delay even when there
+  appear traders selling at fair price in the market.
+
+These flaws has led to certain confusion and anger among market participants.
+
+# Rationale
+
+Actually, when a margin call appears, it means there is somebody
+willing to buy back the debt. Thus, it makes sense to fill the margin calls
+with the settle orders.
+
+Similarly, if there are limit orders selling debt asset below feed price,
+it makes sense to match them with the settle orders as well.
+
+When one of these opportunities appears, it makes sense to fill certain
+settle orders immediately if it's desired by the owners of the settle orders.
+
+These changes would improve user experience (UX).
+
+# Specifications
+
+## `settle_order_object`
+
+The `settle_order_object` stores current status of a force-settlement order.
+
+Need to add a new field into it:
+
+* `bool fill_asap;`
+
+By default this field is set to `false`, which means the order will be
+processed after the delay defined in bitasset option, which is current
+behavior.
+
+If this field is set to `true`, the order will be filled or partially filled
+when a debt position enters margin call territory, it will also be filled or
+partially filled when someone placed a limit order selling collateral asset
+below feed price.
+
+If multiple settle orders with this field as `true` exist in the market,
+when filling before the delay, the order which is created first will be
+filled first.
+
+## `asset_settle_operation`
+
+The `asset_settle_operation` is used to request a force-settlement. It has
+an `extensions` field:
+
+* `extensions_type     extensions;`
+
+Need to override data type of this field so it can include the new `fill_asap`
+option.
+
+## `asset_settle_evaluator`
+
+The `asset_settle_evaluator` is used to evaluate and apply the
+`asset_settle_operation`. Need to add logic:
+* only allow `fill_asap` option to be set after the hard fork;
+* if `fill_asap` option is specified in `asset_settle_operation`, when
+  creating a `settle_order_object` (note: it implies some conditions E.G. the
+  asset is not globally settled), assign the value of the operation's
+  `fill_asap` field to the object's `fill_asap` field.
+* if `fill_asap` is set to `true`, and if the feed price is valid,
+  after created the settle order object, try to match it against the order
+  book immediately, in other words, treat it as a taker limit order buying
+  at feed price.
+
+## `proposal_create_evaluator`
+
+The `proposal_create_evaluator` is used to evaluate and apply the
+`proposal_create_operation`, which can contain zero or more
+`asset_settle_operation` objects. Need to add logic:
+* only allow `fill_asap` to be set after the hard fork.
+
+## Matching and filling settle orders before the delay
+
+### When a new limit order is created
+
+If the new limit order is selling the collateral asset for debt asset, and
+its price is below feed price (which implies feed price is valid),
+* current logic is to only match it with the limit orders on the opposite;
+* after the hard fork, the new logic would be:
+  * firstly match it with the limit orders on the opposite whose buy prices
+    are higher than feed price;
+  * secondly match it with the settle orders with `fill_asap` set to `true`,
+    the matching price would be feed price, in other words, treat the settle
+    orders as maker limit orders buying at feed price;
+  * lastly match it with remaining limit orders on the opposite.
+
+### When a debt position entered margin call territory
+
+If a margin call order appears, either due to feed price changed, or due to
+collateral or debt changed (which implies feed price is valid),
+* current logic is to only match it with the limit orders on the opposite;
+* after the hard fork, the new logic would be:
+  * firstly match it with the limit orders on the opposite whose buy prices
+    are higher than feed price;
+  * secondly match it with the settle orders with `fill_asap` set to `true`,
+    the matching price would be feed price, in other words, treat the settle
+    orders as maker limit orders buying at feed price;
+  * lastly match it with remaining limit orders on the opposite.
+
+### When feed price changed
+
+When feed price changed, either due to a new price is published, or due
+to an old price expired, or due to asset options changed, if the new feed
+price is valid, and if the new feed price in the direction of "X debt asset
+per collateral asset" is higher than the old feed price or the old feed
+price was invalid,
+* current logic doesn't handle settle orders,
+* after the hard fork, the new logic would be:
+  * if there are limit orders selling collateral asset below the new feed
+    price, and there are settle orders whose `fill_asap` is `true`,
+    match the settle orders with the limit orders, in other words, treat
+    those settle orders as taker limit orders buying at the new feed price.
+
+### Do not update `force_settled_volume` before the delay
+
+When a settle order is matched and (partially) filled before the delay, 
+it doesn't affect `force_settled_volume` (which indicates how much debt
+asset has been force-settled in current maintenance interval).
+
+## Processing settle orders after the delay
+
+Currently, when filling a settle order after the delay (note: it implies
+some conditions E.G. price feed is valid and total settled volume in current
+maitenance interval doesn't exceed maximum allowed volume),
+the settle order will be matched against the debt position with the least
+collateral ratio, the fill price in the direction of "X debt asset
+per collateral asset" would be
+`fill_price = feed_price * (1 + foce_settlement_offset)`.
+
+After the hard fork, when processing a settle order after the delay,
+* firstly try to match it with the margin calls and limit orders selling
+  below `fill_price`, in other words, treat it as a taker limit order buying
+  at `fill_price`.
+  Note: this step doesn't affect `force_settled_volume`.
+* if the settle order still exists, process it with the logic before the
+  hard fork.
+  Note: this step does affect `force_settled_volume` as before.
+
+## API
+
+APIs which return `settle_order_object` need to return the new `fill_asap`
+field.
+
+APIs which return combined order book can combine settle orders whose
+`fill_asap` is true with limit orders in the same direction.
+
+## CLI
+
+There was a `settle_asset` command in CLI.
+
+Need to add a new command E.G. `settle_asset_ext` in CLI so that users would
+be able to create force-settlement orders with the new `fill_asap` option.
+
+## GUI/UX
+
+The new `fill_asap` option need to be presented and can be used in UI after
+the hard fork.
+
+When there are settle orders with `fill_asap` set to `true`, UI can show them
+as special buy orders which are buying at feed price in the order book.
+
+# Discussion
+
+With this BSIP, we provided a tool that can be used by debt asset holders to
+convert their debt asset to collateral asset more conveniently and flexibly.
+However, it's not guaranteed that a settle order will be filled at better
+price if the owner chose to fill it "as soon as possible". Market paticipants
+should always make their own decisions on whether to use the new tool.
+
+# Summary for Shareholders
+
+TBD
+
+# Copyright
+
+This document is placed in the public domain.
+
+# See Also
+
+* https://github.com/bitshares/bsips/issues/181
+* https://github.com/bitshares/bitshares-ui/issues/1711
