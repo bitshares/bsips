@@ -29,7 +29,7 @@ Number             | Title                                                    | 
 [19](bsip-0019.md) | Introducing profit sharing/dividends to Bitshares (MPA only)        | Customminer       | Protocol       | Deferred
 [20](bsip-0020.md) | Introducing profit sharing/dividends to Bitshares (UIA only)        | Customminer       | Protocol       | Deferred
 [21](bsip-0021.md) | Introducing the 'Coin-Age' statistic to Bitshares assets | Customminer       | Protocol       | Draft
-[22](bsip-0022.md) | Introducing expiring votes for Witnesses, Committie members & Proxies within the Bitshares network        | Customminer       | Protocol       | Draft
+[22](bsip-0022.md) | Vote Decay for Witnesses, Committee Members & Proxies    | Customminer       | Protocol       | Draft
 [23](bsip-0023.md) | Sharedropping an UIA against an external cryptocurrency distribution snapshot        | Customminer       | Protocol       | Draft
 [24](bsip-0024.md) | Locking Bitshares away as 'Bitshares Influence' for voting privileges on the BTS DEX       | Customminer       | Protocol       | Draft
 [25](bsip-0025.md) | Transaction Flat-Rates with Weighted Rate-Limitation     | Fabian Schuh | Protocol | Draft
@@ -74,7 +74,8 @@ Number             | Title                                                    | 
 [66](https://github.com/bitshares/bsips/pull/132) | Sharedrop Operation | OpenLedger | Protocol | Draft
 [67](https://github.com/bitshares/bsips/pull/133) | Dynamic Market Fees | OpenLedger | Protocol | Draft
 [68](https://github.com/bitshares/bsips/pull/134) | Market Fee Based Asset | OpenLedger | Protocol | Draft
-[69](https://github.com/bitshares/bsips/issues/175) | Additional Assert Predicates | Christopher J. Sanborn | Protocol | Draft
+[69](https://github.com/bitshares/bsips/issues/163) | Additional Assert Predicates | Christopher J. Sanborn | Protocol | Draft
 [70](https://github.com/bitshares/bsips/issues/170) | Lending for Margin Trading | George Harrap, Michel Santos | Protocol | Draft
 [71](https://github.com/bitshares/bsips/issues/179) | Add "Prevent Global Settlement" Flag for Smartcoin  | Jerry Liu | Protocol | Draft
 [72](https://github.com/bitshares/bsips/issues/178) | Tanks and Taps: A General Solution for Smart Contract Asset Handling | Nathan Hourt | Protocol | Draft
+[73](https://github.com/bitshares/bsips/issues/181) | Match Force-Settlement Orders with Margin Calls and Limit Orders Immediately | Abit More | Protocol | Draft
