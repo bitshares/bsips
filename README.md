@@ -78,4 +78,4 @@ Number             | Title                                                    | 
 [70](https://github.com/bitshares/bsips/issues/170) | Lending for Margin Trading | George Harrap, Michel Santos | Protocol | Draft
 [71](https://github.com/bitshares/bsips/issues/179) | Add "Prevent Global Settlement" Flag for Smartcoin  | Jerry Liu | Protocol | Draft
 [72](https://github.com/bitshares/bsips/issues/178) | Tanks and Taps: A General Solution for Smart Contract Asset Handling | Nathan Hourt | Protocol | Draft
-[73](https://github.com/bitshares/bsips/issues/181) | Match Force-Settlement Orders with Margin Calls and Limit Orders Immediately | Abit More | Protocol | Draft
+[73](https://github.com/bitshares/bsips/issues/181) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
