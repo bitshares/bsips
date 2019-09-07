@@ -69,7 +69,7 @@ Number             | Title                                                    | 
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
 [62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Draft
 [63](https://github.com/bitshares/bsips/issues/172) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
-[64](https://github.com/bitshares/bsips/issues/174) | Optional HTLC Preimage Length and Add Hash160 Algorithm | Ryan R. Fox | Protocol | Draft
+[64](bsip-0064.md) | Optional HTLC preimage length, HASH160 addition, and memo field | John Jones, Abit More | Protocol | Draft
 [65](https://github.com/bitshares/bsips/pull/149) | Fix Locked Accounts | OpenLedger | Protocol | Draft
 [66](https://github.com/bitshares/bsips/pull/132) | Sharedrop Operation | OpenLedger | Protocol | Draft
 [67](https://github.com/bitshares/bsips/pull/133) | Dynamic Market Fees | OpenLedger | Protocol | Draft
