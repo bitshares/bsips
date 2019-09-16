@@ -76,7 +76,7 @@ Number             | Title                                                    | 
 [68](https://github.com/bitshares/bsips/pull/134) | Market Fee Based Asset | OpenLedger | Protocol | Draft
 [69](https://github.com/bitshares/bsips/issues/163) | Additional Assert Predicates | Christopher J. Sanborn | Protocol | Draft
 [70](bsip-0070.md) | Peer-to-Peer Leveraged Trading | George Harrap, Michel Santos, Peter Conrad | Protocol | Draft
-[71](https://github.com/bitshares/bsips/issues/179) | Add "Prevent Global Settlement" Flag for Smartcoin  | Jerry Liu | Protocol | Draft
+[71](bsip-0071.md) | Add "Prevent Global Settlement" Flag for Smartcoin  | Jerry Liu | Protocol | Draft
 [72](bsip-0072.md) | Tanks and Taps: A General Solution for Smart Contract Asset Handling | Nathan Hourt | Protocol | Draft
 [73](bsip-0073.md) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
 [74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Draft
