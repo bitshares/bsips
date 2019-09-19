@@ -54,7 +54,7 @@ Number             | Title                                                    | 
 [44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Installed
 [45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Accepted
-[47](https://github.com/bitshares/bsips/pull/114) | An Explicit Voting Operation                 | Fabian Schuh | Protocol | Draft
+[47](bsip-0047.md) | Explicit Voting Operation    | Fabian Schuh | Protocol | Draft
 [48](https://github.com/bitshares/bsips/pull/115) | Add Flag to Asset to Prevent Manipulating Max Supply | Fabian Schuh | Protocol | Draft
 [50](https://github.com/bitshares/bsips/issues/88) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
 [51](https://github.com/bitshares/bsips/issues/89) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
@@ -64,7 +64,7 @@ Number             | Title                                                    | 
 [55](https://github.com/bitshares/bsips/issues/93) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
 [58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Informational | Accepted
-[59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
+[59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Accepted
 [60](bsip-0060.md) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Accepted
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
 [62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Draft
