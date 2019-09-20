@@ -80,3 +80,4 @@ Number             | Title                                                    | 
 [72](bsip-0072.md) | Tanks and Taps: A General Solution for Smart Contract Asset Handling | Nathan Hourt | Protocol | Draft
 [73](bsip-0073.md) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
 [74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Draft
+[75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Draft
