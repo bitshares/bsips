@@ -81,4 +81,5 @@ Number             | Title                                                    | 
 [73](bsip-0073.md) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
 [74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Draft
 [75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Draft
-[76](https://github.com/bitshares/bsips/issues/221) | ommittee-Defined SmartAsset Collateral Threshold | Abit More | Protocol | Draft
+[76](https://github.com/bitshares/bsips/issues/221) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
+[77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating/Adjusting Debt Positions | Abit More | Protocol | Draft
