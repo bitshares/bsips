@@ -54,7 +54,7 @@ Number             | Title                                                    | 
 [44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Installed
 [45](bsip-0045.md) | Add bitAsset Backing Collateral flag/permission                             | Customminer | Protocol | Draft
 [46](https://github.com/bitshares/bsips/pull/111) | Escrow Concepts                              | Taconator | Informational | Accepted
-[47](bsip-0047.md) | Explicit Voting Operation    | Fabian Schuh | Protocol | Draft
+[47](bsip-0047.md) | Vote Proxies for Different Referendum Categories and Explicit Voting Operation    | Fabian Schuh | Protocol | Draft
 [48](https://github.com/bitshares/bsips/pull/115) | Add Flag to Asset to Prevent Manipulating Max Supply | Fabian Schuh | Protocol | Draft
 [50](https://github.com/bitshares/bsips/issues/88) | Stealth development, Phase II                              | Chris Sanborn | Informational | Draft
 [51](https://github.com/bitshares/bsips/issues/89) | New operations for Confidential Asset (CA) transactions    | Chris Sanborn | Protocol      | Draft
