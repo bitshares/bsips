@@ -64,11 +64,11 @@ Number             | Title                                                    | 
 [55](https://github.com/bitshares/bsips/issues/93) | Metadata hiding via Garlic Routing and other means         | Chris Sanborn | Informational | Draft
 [57](bsip-0057.md) | Managed Vesting Balances | Blockchain Projects BV | Protocol | Draft
 [58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Informational | Accepted
-[59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Draft
+[59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Accepted
 [60](bsip-0060.md) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Accepted
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
 [62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Draft
-[63](https://github.com/bitshares/bsips/issues/172) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
+[63](bsip-0063.md) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
 [64](bsip-0064.md) | Optional HTLC preimage length, HASH160 addition, and memo field | John Jones, Abit More | Protocol | Draft
 [65](https://github.com/bitshares/bsips/pull/149) | Fix Locked Accounts | OpenLedger | Protocol | Draft
 [66](https://github.com/bitshares/bsips/pull/132) | Sharedrop Operation | OpenLedger | Protocol | Draft
@@ -80,3 +80,6 @@ Number             | Title                                                    | 
 [72](bsip-0072.md) | Tanks and Taps: A General Solution for Smart Contract Asset Handling | Nathan Hourt | Protocol | Draft
 [73](bsip-0073.md) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
 [74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Draft
+[75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Draft
+[76](https://github.com/bitshares/bsips/issues/221) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
+[77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating/Adjusting Debt Positions | Abit More | Protocol | Draft
