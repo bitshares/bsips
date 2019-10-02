@@ -14,9 +14,9 @@ Number             | Title                                                    | 
 -------------------|----------------------------------------------------------|-------------------|----------------|--------
 [1](bsip-0001.md)  | BSIP Purpose and Guidelines                              | Fabian Schuh      | Informational  | Draft
 [2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Superseded by [26](bsip-0026.md)
-[3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Deferred
+[3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Superseded by [81](https://github.com/bitshares/bsips/issues/229)
 [4](bsip-0004.md)  | Distribute Market Fees on Core Asset to Referral Program | Daniel Larimer    | Protocol       | Obsoleted by [43](bsip-0043.md)
-[5](bsip-0005.md)  | Expiring Votes for Witnesses                             | Daniel Larimer    | Protocol       | Draft
+[5](bsip-0005.md)  | Expiring Votes for Witnesses                             | Daniel Larimer    | Protocol       | 	Superseded by [22](bsip-0022.md)
 [6](bsip-0006.md)  | Market Maker Incentivization                             | Daniel Larimer    | Protocol       | Draft
 [7](bsip-0007.md)  | Fee Backed Assets (FBA)                                  | Daniel Larimer    | Protocol       | Installed
 [8](bsip-0008.md)  | Privacy (STEALTH) Mode                                   | Daniel Larimer    | Protocol       | Installed
@@ -48,7 +48,7 @@ Number             | Title                                                    | 
 [38](bsip-0038.md) | Add target collateral ratio option to short positions                       | Abit More | Protocol | Installed
 [39](bsip-0039.md) | Automatically approve proposals by the proposer                             | Fabian Schuh | Protocol | Draft
 [40](bsip-0040.md) | Custom active permission                             | Stefan Schießl | Protocol | Accepted - Milestone 1
-[41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Protocol | Accepted
+[41](bsip-0041.md) | Reduce MSSR of bitCNY from 1.1 to 1.05               | Jerry Liu      | Informational | Superseded by [59](bsip-0059.md)
 [42](bsip-0042.md) | Adjust price feed to influence trading price of SmartCoins                  | Abit More | Protocol | Rejected
 [43](bsip-0043.md) | Market Fee Sharing                                                          | OpenLedgerApp | Protocol | Installed
 [44](bsip-0044.md) | Hashed Time-Locked Contract                                                 | Ryan R. Fox | Protocol | Installed
