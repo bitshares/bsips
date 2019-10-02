@@ -83,4 +83,5 @@ Number             | Title                                                    | 
 [75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Voting
 [76](https://github.com/bitshares/bsips/issues/221) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
 [77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating/Adjusting Debt Positions | Abit More | Protocol | Draft
-[78](https://github.com/bitshares/bsips/issues/186) | Allow non-LTM Accounts to be Referrer | Abit More | Protocol | Draft
+[78](https://github.com/bitshares/bsips/issues/213) | Market Liquidity Pool | bench | Protocol | Draft
+[79](https://github.com/bitshares/bsips/issues/186) | Allow non-LTM Accounts to be Referrer | Abit More | Protocol | Draft
