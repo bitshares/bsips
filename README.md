@@ -14,7 +14,7 @@ Number             | Title                                                    | 
 -------------------|----------------------------------------------------------|-------------------|----------------|--------
 [1](bsip-0001.md)  | BSIP Purpose and Guidelines                              | Fabian Schuh      | Informational  | Draft
 [2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Superseded by [26](bsip-0026.md)
-[3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Superseded by [81](https://github.com/bitshares/bsips/issues/229)
+[3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Obsoleted by [81](https://github.com/bitshares/bsips/issues/229)
 [4](bsip-0004.md)  | Distribute Market Fees on Core Asset to Referral Program | Daniel Larimer    | Protocol       | Obsoleted by [43](bsip-0043.md)
 [5](bsip-0005.md)  | Expiring Votes for Witnesses                             | Daniel Larimer    | Protocol       | 	Superseded by [22](bsip-0022.md)
 [6](bsip-0006.md)  | Market Maker Incentivization                             | Daniel Larimer    | Protocol       | Draft
