@@ -6,6 +6,7 @@
     Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
     Discussion: <url>
     Replaces: <BSIP number> (optional)
+    Obsoleted-By: <BSIP number> (optional)
     Superseded-By: <BSIP number> (optional)
     Worker: <Id of worker proposal> (optional)
 
