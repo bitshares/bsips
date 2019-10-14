@@ -86,3 +86,4 @@ Number             | Title                                                    | 
 [81](https://github.com/bitshares/bsips/issues/229) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
 [83](https://github.com/bitshares/bsips/pull/238) | Decouple BitAssets from Platform Governance Process | Conrad, Fox, Garcia, Hourt, Jones, Sanborn, Santos | Protocol | Draft
 [84](https://github.com/bitshares/bsips/issues/81) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
+[85](https://github.com/bitshares/bsips/issues/240) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
