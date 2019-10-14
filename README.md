@@ -83,7 +83,7 @@ Number             | Title                                                    | 
 [75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Draft
 [76](https://github.com/bitshares/bsips/issues/221) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
 [77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating/Adjusting Debt Positions | Abit More | Protocol | Draft
-[80](https://github.com/bitshares/bsips/issues/229) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
-[81](https://github.com/bitshares/bsips/issues/232) | Short-Term Membership | Abit More | Protocol | Draft
-[83](https://github.com/bitshares/bsips/issues/232) | Decouple BitAssets from Platform Governance Process | Conrad, Fox, Garcia, Hourt, Jones, Sanborn, Santos | Protocol | Draft
-[84](https://github.com/bitshares/bsips/issues/232) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
+[80](https://github.com/bitshares/bsips/issues/232) | Short-Term Membership | Abit More | Protocol | Draft
+[81](https://github.com/bitshares/bsips/issues/229) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
+[83](https://github.com/bitshares/bsips/pull/238) | Decouple BitAssets from Platform Governance Process | Conrad, Fox, Garcia, Hourt, Jones, Sanborn, Santos | Protocol | Draft
+[84](https://github.com/bitshares/bsips/issues/81) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
