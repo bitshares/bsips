@@ -100,7 +100,7 @@ asset on an account, if the account is committee-account, let it pass.
 
 # Non-Technical Summary
 
-This BSIP addes a tool for the committee to impose a tax on market trading
+This BSIP adds a tool for the committee to impose a tax on market trading
 fees for all assets which enabled market trading fee, thus would potentially
 increase income for the network to support its development. It may probably
 damage businesses relying on market fees if the committee-decided tax is high.
