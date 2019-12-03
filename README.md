@@ -85,3 +85,4 @@ Number             | Title                                                    | 
 [77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating/Adjusting Debt Positions | Abit More | Protocol | Draft
 [81](https://github.com/bitshares/bsips/issues/229) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
 [84](https://github.com/bitshares/bsips/issues/81) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
+[85](https://github.com/bitshares/bsips/issues/240) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
