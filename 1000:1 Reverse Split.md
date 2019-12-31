@@ -1,4 +1,4 @@
-    BSIP: BSIP 86
+    BSIP: <number not yet assigned>
     Title: 1000:1 Reverse Split of Core BTS Token
     Authors: litepresence finitestate@tutamail.com
     Status: Draft
