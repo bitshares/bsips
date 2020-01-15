@@ -67,7 +67,7 @@ Number             | Title                                                    | 
 [59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Accepted
 [60](bsip-0060.md) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Accepted
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
-[62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Draft
+[62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Approved
 [63](bsip-0063.md) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
 [64](bsip-0064.md) | Optional HTLC preimage length, HASH160 addition, and memo field | John Jones, Abit More | Protocol | Draft
 [65](https://github.com/bitshares/bsips/pull/149) | Fix Locked Accounts | OpenLedger | Protocol | Draft
@@ -86,3 +86,4 @@ Number             | Title                                                    | 
 [81](https://github.com/bitshares/bsips/issues/229) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
 [84](https://github.com/bitshares/bsips/issues/81) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
 [85](https://github.com/bitshares/bsips/issues/240) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
+[86](bsip-0086.md) | Share market fees to the network | Abit More | Protocol | Approved
