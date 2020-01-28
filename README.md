@@ -82,7 +82,7 @@ Number             | Title                                                    | 
 [74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Draft
 [75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Draft
 [76](https://github.com/bitshares/bsips/issues/221) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
-[77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating/Adjusting Debt Positions | Abit More | Protocol | Draft
+[77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating / Adjusting Debt Positions | Abit More | Protocol | Accepted
 [81](https://github.com/bitshares/bsips/issues/229) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
 [84](https://github.com/bitshares/bsips/issues/81) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
 [85](https://github.com/bitshares/bsips/issues/240) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
