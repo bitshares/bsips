@@ -87,3 +87,4 @@ Number             | Title                                                    | 
 [84](https://github.com/bitshares/bsips/issues/81) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
 [85](https://github.com/bitshares/bsips/issues/240) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
 [86](bsip-0086.md) | Share market fees to the network | Abit More | Protocol | Approved
+[87](bsip-0087.md) | Force Settlement Fee (working title) | Bitcrab | Protocol | Draft
