@@ -81,11 +81,11 @@ Number             | Title                                                    | 
 [73](bsip-0073.md) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
 [74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Draft
 [75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Draft
-[76](https://github.com/bitshares/bsips/issues/221) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
-[77](https://github.com/bitshares/bsips/issues/161) | Require Higher CR When Creating / Adjusting Debt Positions | Abit More | Protocol | Accepted
-[81](https://github.com/bitshares/bsips/issues/229) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
-[84](https://github.com/bitshares/bsips/issues/81) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
-[85](https://github.com/bitshares/bsips/issues/240) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
+[76](bsip-0076.md) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
+[77](bsip-0077.md) | Require Higher CR When Creating / Adjusting Debt Positions | Abit More | Protocol | Accepted
+[81](bsip-0081.md) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
+[84](bsip-0084.md) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
+[85](bsip-0085.md) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
 [86](bsip-0086.md) | Share market fees to the network | Abit More | Protocol | Approved
 [87](bsip-0087.md) | Force Settlement Fee | Jerry Liu | Protocol | Accepted
 
