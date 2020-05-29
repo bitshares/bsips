@@ -79,14 +79,14 @@ Number             | Title                                                    | 
 [71](bsip-0071.md) | Add "Prevent Global Settlement" Flag for Smartcoin  | Jerry Liu | Protocol | Draft
 [72](bsip-0072.md) | Tanks and Taps: A General Solution for Smart Contract Asset Handling | Nathan Hourt | Protocol | Draft
 [73](bsip-0073.md) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
-[74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Draft
-[75](https://github.com/bitshares/bsips/issues/96) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Draft
+[74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Approved
+[75](bsip-0075.md) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Accepted
 [76](bsip-0076.md) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
 [77](bsip-0077.md) | Require Higher CR When Creating / Adjusting Debt Positions | Abit More | Protocol | Approved
-[81](bsip-0081.md) | Simple Maker-Taker Market Fees | Abit More | Protocol | Draft
+[81](bsip-0081.md) | Simple Maker-Taker Market Fees | Abit More | Protocol | Approved
 [84](bsip-0084.md) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
-[85](bsip-0085.md) | Maker Order Creation Fee Discount | Abit More | Protocol | Draft
+[85](bsip-0085.md) | Maker Order Creation Fee Discount | Abit More | Protocol | Approved
 [86](bsip-0086.md) | Share market fees to the network | Abit More | Protocol | Approved
-[87](bsip-0087.md) | Force Settlement Fee | Jerry Liu | Protocol | Accepted
+[87](bsip-0087.md) | Force Settlement Fee | Jerry Liu | Protocol | Approved
 
 
