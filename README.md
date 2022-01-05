@@ -14,7 +14,7 @@ Number             | Title                                                    | 
 -------------------|----------------------------------------------------------|-------------------|----------------|--------
 [1](bsip-0001.md)  | BSIP Purpose and Guidelines                              | Fabian Schuh      | Informational  | Draft
 [2](bsip-0002.md)  | Refund Create Order Fees on Cancel                       | Daniel Larimer    | Protocol       | Superseded by [26](bsip-0026.md)
-[3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Obsoleted by [81](https://github.com/bitshares/bsips/issues/229)
+[3](bsip-0003.md)  | Maker / Taker Market Fees Flag                           | Daniel Larimer    | Protocol       | Obsoleted by [81](bsip-0081.md)
 [4](bsip-0004.md)  | Distribute Market Fees on Core Asset to Referral Program | Daniel Larimer    | Protocol       | Obsoleted by [43](bsip-0043.md)
 [5](bsip-0005.md)  | Expiring Votes for Witnesses                             | Daniel Larimer    | Protocol       | 	Superseded by [22](bsip-0022.md)
 [6](bsip-0006.md)  | Market Maker Incentivization                             | Daniel Larimer    | Protocol       | Draft
@@ -69,7 +69,7 @@ Number             | Title                                                    | 
 [61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
 [62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Approved
 [63](bsip-0063.md) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
-[64](bsip-0064.md) | Optional HTLC preimage length, HASH160 addition, and memo field | John Jones, Abit More | Protocol | Draft
+[64](bsip-0064.md) | Optional HTLC preimage length, HASH160 addition, and memo field | John Jones, Abit More | Protocol | Installed
 [65](https://github.com/bitshares/bsips/pull/149) | Fix Locked Accounts | OpenLedger | Protocol | Draft
 [66](https://github.com/bitshares/bsips/pull/132) | Sharedrop Operation | OpenLedger | Protocol | Draft
 [67](https://github.com/bitshares/bsips/pull/133) | Dynamic Market Fees | OpenLedger | Protocol | Draft
@@ -79,14 +79,14 @@ Number             | Title                                                    | 
 [71](bsip-0071.md) | Add "Prevent Global Settlement" Flag for Smartcoin  | Jerry Liu | Protocol | Draft
 [72](bsip-0072.md) | Tanks and Taps: A General Solution for Smart Contract Asset Handling | Nathan Hourt | Protocol | Draft
 [73](bsip-0073.md) | Match Force-Settlement Orders with Margin Calls and Limit Orders | Abit More | Protocol | Draft
-[74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Approved
-[75](bsip-0075.md) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Accepted
+[74](bsip-0074.md) | Margin Call Fee Ratio | Jerry Liu | Protocol | Installed
+[75](bsip-0075.md) | Asset Owner Defines MCR and MSSR Values | John Jones | Protocol | Installed
 [76](bsip-0076.md) | Committee-Defined SmartAsset Collateral Threshold | Abit More | Informational | Draft
-[77](bsip-0077.md) | Require Higher CR When Creating / Adjusting Debt Positions | Abit More | Protocol | Approved
-[81](bsip-0081.md) | Simple Maker-Taker Market Fees | Abit More | Protocol | Approved
+[77](bsip-0077.md) | Require Higher CR When Creating / Adjusting Debt Positions | Abit More | Protocol | Installed
+[81](bsip-0081.md) | Simple Maker-Taker Market Fees | Abit More | Protocol | Installed
 [84](bsip-0084.md) | Elections Based on non-Core Asset | Peter Conrad | Protocol | Draft
-[85](bsip-0085.md) | Maker Order Creation Fee Discount | Abit More | Protocol | Approved
-[86](bsip-0086.md) | Share market fees to the network | Abit More | Protocol | Approved
-[87](bsip-0087.md) | Force Settlement Fee | Jerry Liu | Protocol | Approved
+[85](bsip-0085.md) | Maker Order Creation Fee Discount | Abit More | Protocol | Installed
+[86](bsip-0086.md) | Share market fees to the network | Abit More | Protocol | Installed
+[87](bsip-0087.md) | Force Settlement Fee | Jerry Liu | Protocol | Installed
 
 
