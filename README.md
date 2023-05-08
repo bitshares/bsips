@@ -66,8 +66,8 @@ Number             | Title                                                    | 
 [58](bsip-0058.md) | Global Settlement Protection Through Price Feeding | Jerry Liu | Informational | Accepted
 [59](bsip-0059.md) | Adjustment of MSSR and MCR Through Voting | Jerry Liu | Informational | Accepted
 [60](bsip-0060.md) | BitShares URI scheme | John Titor, Stefan Schießl, Abit More | Informational (Client Protocol) | Accepted
-[61](https://github.com/bitshares/bsips/issues/150) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
-[62](https://github.com/bitshares/bsips/issues/156) | Close Short Position | Stefan Schießl | Protocol | Approved
+[61](bsip-0061.md) | Operation to Update Limit Orders | Nathan Hourt | Protocol | Draft
+[62](bsip-0062.md) | Close Short Position | Stefan Schießl | Protocol | Approved
 [63](bsip-0063.md) | Short-lived Unidirectional Payment Channels | Christopher J. Sanborn | Informational | Draft
 [64](bsip-0064.md) | Optional HTLC preimage length, HASH160 addition, and memo field | John Jones, Abit More | Protocol | Installed
 [65](https://github.com/bitshares/bsips/pull/149) | Fix Locked Accounts | OpenLedger | Protocol | Draft
