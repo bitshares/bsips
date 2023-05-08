@@ -1,0 +1,110 @@
+
+
+BSIP: 9999
+Title: Distributed Bitcoin Cross Claim Gateway
+Authors: litepresence finitestate@tutamail.com  
+Status: Draft
+
+BSIP: <BSIP number>
+Title: <BSIP title>
+Authors: <list of authors' real names and optionally, email addrs>
+Status: [ Draft | Accepted | Installed | Voting | Deferred | Rejected | Superseded | Obsoleted ]
+
+Type: Protocol
+
+Created: 2020-09-09
+
+Discussion: <url>
+
+Abstract
+----------------
+
+polkaBTC is a full reserve distributed gateway
+
+polkaBTC "vault" is a contract that anyone can issue polkaBTC from - to any other party
+witnesses run bitcoin spv nodes and post headers
+the statistical mode of the headers are then a "BTC parachain" on the issuing chain
+issuers post collateral much like borrowing an MPA
+issuer must maintain collateral of core token on the issuing chain
+or other token on issuing chain) at stochastic market rate
+issuers can charge a fee to those who request or redeem polkaBTC
+issuer collateral ratio, fees charged, and vault size is public rpc info
+In practice, request and redeem work much like a gateway from the user level except:
+    instead of judging gateways based on perceived trustworthiness
+    you judge gateways based on fees charged
+additionally polkaBTC is equivilent regardless of which user issued it
+
+Motivation
+----------------
+
+Traditional IOU gateways require trusted third parties which have historically ended with "exit scams"
+
+Rational
+----------------
+
+A smart contract XCLAIM style gateway ensures contractual performance through collateralization
+
+Specifications
+----------------
+
+Witnesses upload bitcoin headers
+Anyone can issue "polkaBTC" to anyone by locking BTC on Bitcoin Mainnet
+Anyone with "polkaBTC" can redeem with any vault operator.  
+vault operators must maintain collateral or be penalized. 
+
+
+Discussion
+----------------
+
+see POLKABTC SPECIFICATION DOCS for details.   Of course we can debate what we'll name the token.   
+
+
+Summary for Shareholders
+----------------
+
+BitShares gateway technology is a relic of the past that is a marginal improvement on CEX technology.
+In both cases you are trusting a third party to issue tokens.
+XCLAIM tech can allow BitShares a means to interact securely with Bitcoin
+
+
+Copyright 
+----------------
+
+WTFPL 1765
+
+See Also
+----------------
+
+
+    XCLAIM LIGHT PAPER
+
+https://www.ieee-security.org/TC/SP2019/SP19-Slides-pdfs/Alexei_Zamyatin_-_02-Alexei_Zamyatin-XCLAIM_Trustless_Interoperable_Cryptocurrency-Backed_Assets.pdf
+
+    XCLAIM WHITE PAPER
+
+https://eprint.iacr.org/2018/643.pdf
+
+    ANN POLKADOT BRIDGE
+
+https://medium.com/interlay/interlay-receives-w3f-grant-to-build-trustless-btc-polkadot-bridge-c4bdb40173a3
+
+    POLKABTC SPECIFICATION DOCS
+
+https://interlay.gitlab.io/polkabtc-spec/
+https://gitlab.com/interlay/polkabtc-spec
+
+    EMAIL
+
+contact@interlay.io
+
+    GIT
+
+https://gitlab.com/interlay/btc-parachain
+
+    WEBSITE
+
+https://www.interlay.io/
+
+    BLOG
+
+https://medium.com/interlay
